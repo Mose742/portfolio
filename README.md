@@ -55,7 +55,7 @@ I have even added a few thoughts on potential additional analysis, but this repo
 ![image](R.png)
 The hashtag#mavencommuterchallenge gave me the opportunity to re-use and recycle a report I recently created for energy usage trends, and this time apply it to visualising recovery trends of transport usage in the MTA area in the US since the outbreak of the pandemic.
 The ability to apply similar techniques, models and formats is a real time-saver, and basically allowed me to take part in spite of other commitments.
-![image](R_script.png)
+![image](r_script.png)
 
 ## CONTACT DETAILS
 
