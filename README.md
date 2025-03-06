@@ -14,13 +14,15 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 
 *Projects I have worked on.*
 
-**Life expectancies 2007, Gapminder dataset.**
+**2007 Life expectancies Analysis using Python, Gapminder dataset.**
 ![image](gapminder.png)
 
-The sinking of the Titanic is one of the most infamous shipwrecks in history.
+This data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
+The Gapminder Foundation is a non-profit venture that promotes sustainable global development and achievement of the United Nations Millennium Development Goals by increasing use and understanding of statistics and other information about social, economic, and environmental development.
 
+[view dashboard](https://mose742.github.io/my_first_repo_2025/gapminder_copy.html)
 
-[Read More](https://www.linkedin.com/pulse/predictive-modeling-hypothesis-testing-using-titanic-dataset-anietie/)
+![image](gapminder.png)
 
 **Predictive Modeling and Hypothesis Testing using Titanic Dataset.**
 
