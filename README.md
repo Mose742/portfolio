@@ -24,7 +24,7 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 
 ![image](code.png)
 
-**Predictive Modeling and Hypothesis Testing using Titanic Dataset.**
+**Predictieve Modeling and Hypothesis Testing using Titanic Dataset.**
 
 ![image](2 anietie etuk data analytics sales project.jpg)
 
