@@ -25,7 +25,7 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 ![image](code.png)
 
 **Power BI Project Performance Monitoring Dashboard.**
-![image](metrix.jpg)
+![image](metrix.png)
 
 This live Power BI dashboard pulls data from Metrix portal providing an overview of projects, programs, compliance, and sector performance across multiple countries. Key components include:
 **- ✅Project Selection Panel (Left Sidebar)** – Allows users to filter by specific projects.
@@ -34,7 +34,7 @@ This live Power BI dashboard pulls data from Metrix portal providing an overview
 **- ✅Compliance Trend (Graph, Right Side)** – Shows compliance trends over time.
 **- ✅Sector Compliance Breakdown (Bottom Right)** – Lists different sectors with their compliance percentages and category ratings (e.g., "Excellence," "Good," "Evaluate").
 This dashboard is designed for monitoring and evaluation, offering insights into program distribution, compliance performance, and sectoral impact across various countries. 
-![image](model.jpg)
+![image](model.png)
 
 **Predictive Modeling and Hypothesis Testing using Titanic Dataset.**
 
