@@ -15,7 +15,7 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 *Projects I have worked on.*
 
 **Life expectancies 2007, Gapminder dataset.**
-![image](gapminder.png)
+![image](gapminder2.png)
 
 The sinking of the Titanic is one of the most infamous shipwrecks in history.
 
