@@ -52,19 +52,18 @@ This live Power BI dashboard pulls data from Metrix portal providing an overview
 This dashboard is designed for monitoring and evaluation, offering insights into program distribution, compliance performance, and sectoral impact across various countries. 
 ![image](model.png)
 
-**3. Post pandemic Ridership Trending Report**
+**3. Power BI Post pandemic Ridership Trending Report**
 
 ![image](linkdn2025.png)
-The hashtag#mavencommuterchallenge gave me the opportunity to re-use and recycle a report I recently created for energy usage trends, and this time apply it to visualising recovery trends of transport usage in the MTA area in the US since the outbreak of the pandemic.
-The ability to apply similar techniques, models and formats is a real time-saver, and basically allowed me to take part in spite of other commitments.
+The mavencommuterchallenge shared adataset which i used to create a report for energy usage trends, and applied it to visualising recovery trends of transport usage in the MTA area in the US since the outbreak of the pandemic.
 I have done a bit of a write up for anyone that would like to see the brief and approach as well as the live report. 
-I have even added a few thoughts on potential additional analysis, but this report basically allows an end user to select a transportation method, and look at recovery trends versus: 
+I have even added a few thoughts on potential additional analysis, but this report basically allows an end user to select a transportation method, and look at recovery trends versus: re-pandemic levels and against other transportation methods.
+Inspired by Gerard Duggan
 
-**4. Post pandemic Ridership Trending Report**
+**4. Burundi Baseline vs Endline Survey Analysis using R**
 
 ![image](R.png)
-The hashtag#mavencommuterchallenge gave me the opportunity to re-use and recycle a report I recently created for energy usage trends, and this time apply it to visualising recovery trends of transport usage in the MTA area in the US since the outbreak of the pandemic.
-The ability to apply similar techniques, models and formats is a real time-saver, and basically allowed me to take part in spite of other commitments.
+For the Burundi market assessment, I conducted a comparative analysis between baseline and endline survey data using R. The analysis focused on evaluating market trends, price variations, and other key economic and social indicators. Statistical significance was assessed using p-values to determine whether observed differences between the two time points were statistically meaningful. The findings provided insights into market dynamics, informing programmatic decisions and intervention strategies.
 ![image](r_script.png)
 
 ## CONTACT DETAILS
