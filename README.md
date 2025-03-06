@@ -50,23 +50,28 @@ The ability to apply similar techniques, models and formats is a real time-saver
 I have done a bit of a write up for anyone that would like to see the brief and approach as well as the live report. 
 I have even added a few thoughts on potential additional analysis, but this report basically allows an end user to select a transportation method, and look at recovery trends versus: 
 
+**3. Post pandemic Ridership Trending Report**
+
+![image](R.png)
+The hashtag#mavencommuterchallenge gave me the opportunity to re-use and recycle a report I recently created for energy usage trends, and this time apply it to visualising recovery trends of transport usage in the MTA area in the US since the outbreak of the pandemic.
+The ability to apply similar techniques, models and formats is a real time-saver, and basically allowed me to take part in spite of other commitments.
+![image](R_script.png)
 
 ## CONTACT DETAILS
 
-*Let’s connect and see how we can make a difference together!*
 <table>
   <tbody>
     <tr>
       <td>📧</td>
-      <td><a href="mailto:anietieetuk@gmail.com">anietieetuk@gmail.com</a></td>
+      <td><a href="mailto:anietieetuk@gmail.com">moseso664@gmail.com</a></td>
     </tr>
     <tr>
       <td>📞</td>
-      <td>(234) 816-763-7212</td>
+      <td>(254) 719-514-326</td>
     </tr>
     <tr>
       <td>📍</td>
-      <td>PH, Nigeria</td>
+      <td>Nairobi, Kenya</td>
     </tr>
     <tr>
       <td>⬇️</td>
@@ -78,7 +83,7 @@ I have even added a few thoughts on potential additional analysis, but this repo
     </tr>
     <tr>
       <td>📺</td>
-      <td><a href="https://www.youtube.com/@LearnwithEtuk">Watch my tutorials on YouTube</a></td>
+      <td><a href="https://www.youtube.com/watch?v=q__u5DOWdS8">Watch my tutorial on YouTube</a></td>
     </tr>
   </tbody>
 </table>
