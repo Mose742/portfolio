@@ -22,7 +22,7 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 
 [view dashboard](https://mose742.github.io/my_first_repo_2025/gapminder_copy.html)
 
-![image](gapminder.png)
+![image](code.png)
 
 **Predictive Modeling and Hypothesis Testing using Titanic Dataset.**
 
