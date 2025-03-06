@@ -1,20 +1,20 @@
 <!--Section 1: Introduce your self-->
 ## ABOUT ME
 
-Hello! I'm Moses Okumu, a data analyst and visualization expert. With experience across humanitarian, health and research, I help organizations solve challenges and unlock growth through data demand and information use.
+Hello! I'm Moses Okumu, a data analyst and visualization expert. With experience across humanitarian, health and research. I help organizations solve challenges and unlock growth through data demand and information use.
 
 
 <!--Mention your top/relevant skills here - core and soft skills-->
 ## WHAT I DO
 
-*As Impact Systems Officer at World relief, i transform data into actionable insights using Power BI, R, Python and Excell.*
+As Impact Systems Officer at World relief, i transform data into actionable insights using Power BI, R, Python and Excel.
 
 <!--Section 2: List 3-4 key projects-->
 ## MY PORTFOLIO 
 
 *Projects I have worked on.*
 
-**Predictive Modeling and Hypothesis Testing using Titanic Dataset.**
+**Life expectancies 2007, Gapminder dataset.**
 ![image](1 anietie etuk data analytics car project.jpeg)
 
 The sinking of the Titanic is one of the most infamous shipwrecks in history.
