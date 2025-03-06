@@ -1,4 +1,4 @@
-<!--Section 1: Introduce your self-->
+![image](https://github.com/user-attachments/assets/e37f8fa0-6329-4abb-ae7e-aa2b1727c472)<!--Section 1: Introduce your self-->
 ## ABOUT ME
 
 Hello! I'm Moses Okumu, a data analyst and visualization expert. With experience across humanitarian, health and research. I help organizations solve challenges and unlock growth through data demand and information use.
@@ -8,6 +8,10 @@ Hello! I'm Moses Okumu, a data analyst and visualization expert. With experience
 ## WHAT I DO
 
 As Impact Systems Officer at World relief, i transform data into actionable insights using Power BI, R, Python and Excel.
+
+  ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+  ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 <!--Section 2: List 3-4 key projects-->
 ## MY PORTFOLIO
