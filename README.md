@@ -37,7 +37,7 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 
 This live Power BI dashboard pulls data from Metrix portal providing an overview of projects, programs, compliance, and sector performance across multiple countries. Key components include:
 
-**- ✅Project Selection Panel (Left Sidebar)** – Allows users to filter by specific projects.
+  ✅Project Selection Panel (Left Sidebar): Allows users to filter by specific projects.
 
 **- ✅Country Profile (Center Panel)** – Displays data on countries, including the number of sectors, projects, programs, and indicators.
 
