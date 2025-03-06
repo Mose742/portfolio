@@ -77,10 +77,11 @@ The ability to apply similar techniques, models and formats is a real time-saver
       <td>⬇️</td>
       <td><a href="https://github.com/Mose742/portfolio/blob/main/documents/updated_cv.pdf">Download my CV</a></td>
     </tr>
-    <tr>
-      <td>🌐</td>
-      <td><a href="https://www.linkedin.com/in/mosesokumu/">My LinkedIn</a></td>
-    </tr>
+   <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="24" height="24"></td>
+    <td><a href="https://www.linkedin.com/in/mosesokumu/">My LinkedIn</a></td>
+</tr>
+
     <tr>
       <td>📺</td>
       <td><a href="https://www.youtube.com/watch?v=q__u5DOWdS8">Watch my tutorial on YouTube</a></td>
