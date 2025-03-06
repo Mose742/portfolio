@@ -10,7 +10,7 @@ Hello! I'm Moses Okumu, a data analyst and visualization expert. With experience
 As Impact Systems Officer at World relief, i transform data into actionable insights using Power BI, R, Python and Excel.
 
 <!--Section 2: List 3-4 key projects-->
-## MY PORTFOLIO 
+## MY PORTFOLIO
 
 *Projects I have worked on.*
 
