@@ -75,7 +75,7 @@ The ability to apply similar techniques, models and formats is a real time-saver
     </tr>
     <tr>
       <td>⬇️</td>
-      <td><a href="https://github.com/Mose742/portfolio/blob/main/updated_cv.docx">Download my CV</a></td>
+      <td><a href="https://github.com/Mose742/portfolio/blob/main/documents/updated_cv.pdf">Download my CV</a></td>
     </tr>
     <tr>
       <td>🌐</td>
