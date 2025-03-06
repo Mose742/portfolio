@@ -37,15 +37,15 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 
 This live Power BI dashboard pulls data from Metrix portal providing an overview of projects, programs, compliance, and sector performance across multiple countries. Key components include:
 
-  ✅Project Selection Panel (Left Sidebar): Allows users to filter by specific projects.
+      ✅Project Selection Panel (Left Sidebar) : Allows users to filter by specific projects.
 
-**- ✅Country Profile (Center Panel)** – Displays data on countries, including the number of sectors, projects, programs, and indicators.
+      ✅Country Profile (Center Panel) : Displays data on countries, including the number of sectors, projects, programs, and indicators.
 
-**- ✅Key Metrics (Top Right)** – Summarizes total projects (117), programs (42), and compliance percentage (41%).
+      ✅Key Metrics (Top Right) : Summarizes total projects (117), programs (42), and compliance percentage (41%).
 
-**- ✅Compliance Trend (Graph, Right Side)** – Shows compliance trends over time.
+      ✅Compliance Trend (Graph, Right Side) : Shows compliance trends over time.
 
-**- ✅Sector Compliance Breakdown (Bottom Right)** – Lists different sectors with their compliance percentages and category ratings (e.g., "Excellence," "Good," "Evaluate").
+      ✅Sector Compliance Breakdown (Bottom Right) : Lists different sectors with their compliance percentages and category ratings (e.g., "Excellence," "Good," "Evaluate").
 
 This dashboard is designed for monitoring and evaluation, offering insights into program distribution, compliance performance, and sectoral impact across various countries. 
 ![image](model.png)
