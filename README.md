@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e37f8fa0-6329-4abb-ae7e-aa2b1727c472)<!--Section 1: Introduce your self-->
+<!--Section 1: Introduce your self-->
 ## ABOUT ME
 
 Hello! I'm Moses Okumu, a data analyst and visualization expert. With experience across humanitarian, health and research. I help organizations solve challenges and unlock growth through data demand and information use.
