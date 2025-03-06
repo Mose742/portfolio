@@ -78,7 +78,7 @@ The ability to apply similar techniques, models and formats is a real time-saver
       <td><a href="https://github.com/Mose742/portfolio/blob/main/documents/updated_cv.pdf">Download my CV</a></td>
     </tr>
    <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="18" height="18"></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="15.5" height="15.5"></td>
     <td><a href="https://www.linkedin.com/in/mosesokumu/">My LinkedIn</a></td>
 </tr>
 
