@@ -12,7 +12,9 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
   ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
   ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
   ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+  ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
   ![GIS](https://img.shields.io/badge/GIS-006747?style=flat-square&logo=esri&logoColor=white)
+  ![SurveyCTO](https://img.shields.io/badge/SurveyCTO-005BBB?style=flat-square)
   ![ODK](https://img.shields.io/badge/ODK-FF6600?style=flat-square&logo=opendatakit&logoColor=white)
   ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
 
