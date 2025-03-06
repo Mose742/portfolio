@@ -1,7 +1,7 @@
 <!--Section 1: Introduce your self-->
 ## ABOUT ME
 
-Hello! I'm Anietie Etuk 🤓, a data analyst, educator, and consultant with a passion for turning data into actionable insights. With experience across sales, operations, finance, and customer service, I help businesses solve challenges and unlock growth.
+Hello! I'm Moses Okumu, a data analyst and visualization expert with a passion for turning data into actionable insights. With experience across humanitarian, health and research, I help organizations solve challenges and unlock growth through data demand and information use.
 
 
 <!--Mention your top/relevant skills here - core and soft skills-->
