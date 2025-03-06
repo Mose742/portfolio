@@ -50,7 +50,7 @@ The ability to apply similar techniques, models and formats is a real time-saver
 I have done a bit of a write up for anyone that would like to see the brief and approach as well as the live report. 
 I have even added a few thoughts on potential additional analysis, but this report basically allows an end user to select a transportation method, and look at recovery trends versus: 
 
-**3. Post pandemic Ridership Trending Report**
+**4. Post pandemic Ridership Trending Report**
 
 ![image](R.png)
 The hashtag#mavencommuterchallenge gave me the opportunity to re-use and recycle a report I recently created for energy usage trends, and this time apply it to visualising recovery trends of transport usage in the MTA area in the US since the outbreak of the pandemic.
@@ -78,7 +78,7 @@ The ability to apply similar techniques, models and formats is a real time-saver
       <td><a href="https://github.com/Mose742/portfolio/blob/main/documents/updated_cv.pdf">Download my CV</a></td>
     </tr>
    <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="24" height="24"></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="21" height="21"></td>
     <td><a href="https://www.linkedin.com/in/mosesokumu/">My LinkedIn</a></td>
 </tr>
 
