@@ -5,4 +5,6 @@ description: |
   Passionate about Data Analytics and Visualization using Power BI, R, and Python.
 github:
   is_project_page: false
+include: ["style.css"]
+
 
