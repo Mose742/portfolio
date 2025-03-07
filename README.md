@@ -29,9 +29,8 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 
 This data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
 The Gapminder Foundation is a non-profit venture that promotes sustainable global development and achievement of the United Nations Millennium Development Goals by increasing use and understanding of statistics and other information about social, economic, and environmental development.
-
 [view dashboard](https://mose742.github.io/my_first_repo_2025/gapminder_copy.html)
-
+[view on github](https://github.com/Mose742/my_first_repo_2025/blob/main/gapminder_copy.qmd)
 ![image](code.png)
 
 **2. Power BI Project Performance Monitoring Dashboard.**
@@ -45,9 +44,9 @@ This live Power BI dashboard pulls data from Metrix portal providing an overview
 
   ✅Key Metrics (Top Right) : Summarizes total projects (117), programs (42), and compliance percentage (41%).
 
-   ✅Compliance Trend (Graph, Right Side) : Shows compliance trends over time.
+  ✅Compliance Trend (Graph, Right Side) : Shows compliance trends over time.
 
-   ✅Sector Compliance Breakdown (Bottom Right) : Lists different sectors with their compliance percentages and category ratings (e.g., "Excellence," "Good," "Evaluate").
+  ✅Sector Compliance Breakdown (Bottom Right) : Lists different sectors with their compliance percentages and category ratings (e.g., "Excellence," "Good," "Evaluate").
 
 This dashboard is designed for monitoring and evaluation, offering insights into program distribution, compliance performance, and sectoral impact across various countries. 
 ![image](model.png)
