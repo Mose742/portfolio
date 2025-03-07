@@ -54,6 +54,8 @@ This live Power BI dashboard pulls data from Metrix portal providing an overview
 This dashboard is designed for monitoring and evaluation, offering insights into program distribution, compliance performance, and sectoral impact across various countries. 
 ![image](model.png)
 
+![Access Restricted](https://img.shields.io/badge/Access%20Restricted-As%20per%20our%20organization's%20policy-gray?style=flat-square)
+
 **3. Power BI Post pandemic Ridership Trending Report**
 
 ![image](linkdn2025.png)
