@@ -30,7 +30,9 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 This data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
 The Gapminder Foundation is a non-profit venture that promotes sustainable global development and achievement of the United Nations Millennium Development Goals by increasing use and understanding of statistics and other information about social, economic, and environmental development.
 [view dashboard](https://mose742.github.io/my_first_repo_2025/gapminder_copy.html)
+
 [view on github](https://github.com/Mose742/my_first_repo_2025/blob/main/gapminder_copy.qmd)
+
 ![image](code.png)
 
 **2. Power BI Project Performance Monitoring Dashboard.**
