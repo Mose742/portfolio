@@ -54,7 +54,7 @@ This live Power BI dashboard pulls data from Metrix portal providing an overview
 This dashboard is designed for monitoring and evaluation, offering insights into program distribution, compliance performance, and sectoral impact across various countries. 
 ![image](model.png)
 
-![*dashboard access restricted*](https://img.shields.io/badge/Access%20Restricted-As%20per%20our%20organization's%20policy-gray?style=flat-square)
+![Access Restricted](https://img.shields.io/badge/Access%20restricted-as%20per%20organization's%20policy-gray?style=flat-square)
 
 **3. Power BI Post pandemic Ridership Trending Report**
 
@@ -64,7 +64,7 @@ I have done a bit of a write up for anyone that would like to see the brief and 
 I have even added a few thoughts on potential additional analysis, but this report basically allows an end user to select a transportation method, and look at recovery trends versus: re-pandemic levels and against other transportation methods.
 Inspired by Gerard Duggan
 
-![*dashboard access restricted*](https://img.shields.io/badge/Access%20Restricted-As%20per%20our%20organization's%20policy-gray?style=flat-square)
+![Access Restricted](https://img.shields.io/badge/Access%20restricted-as%20per%20organization's%20policy-gray?style=flat-square)
 
 **4. Burundi Baseline vs Endline Survey Analysis using R**
 
