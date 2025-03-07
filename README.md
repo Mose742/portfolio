@@ -22,7 +22,7 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 <!--Section 2: List 3-4 key projects-->
 ## MY PORTFOLIO
 
-<u>**Projects I have worked on.**</u>
+<span style=**Projects I have worked on**Underlined Text</span>
 
 **1. 2007 Life expectancies Analysis using Python, Gapminder dataset.**
 ![image](gapminder.png)
