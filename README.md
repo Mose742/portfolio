@@ -18,11 +18,10 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
   ![SurveyCTO](https://img.shields.io/badge/SurveyCTO-005BBB?style=flat-square)
   ![Excel](https://img.shields.io/badge/Excel-00BFFF?style=flat-square&logo=microsoft-excel&logoColor=white)
 
+**Projects I have worked on**
 
 <!--Section 2: List 3-4 key projects-->
-## MY PORTFOLIO
-
-**Projects I have worked on**
+## DATA ANALYSIS & VISUALIZATION PROJECTS
 
 **1. 2007 Life expectancies Analysis using Python, Gapminder dataset.**
 ![image](gapminder.png)
