@@ -65,8 +65,11 @@ Inspired by Gerard Duggan
 **4. Burundi Baseline vs Endline Survey Analysis using R**
 
 ![image](R.png)
+
 For the Burundi market assessment, I conducted a comparative analysis between baseline and endline survey data using R. The analysis focused on evaluating market trends, price variations, and other key economic and social indicators. Statistical significance was assessed using p-values to determine whether observed differences between the two time points were statistically meaningful. The findings provided insights into market dynamics, informing programmatic decisions and intervention strategies.
 ![image](r_script.png)
+
+[view on github](https://github.com/Mose742/nyagiheta)
 
 ## CONTACT DETAILS
 
