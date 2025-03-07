@@ -9,10 +9,11 @@ Hello! I'm Moses Okumu, a data analyst and visualization expert. With experience
 
 As Impact Systems Officer at World relief, i transform data into actionable insights using Power BI, R, Python and Excel.
 
-  ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
   ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+  ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
   ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
   ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
+  ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
   ![KoboCollect](https://img.shields.io/badge/KoboCollect-005BBB?style=flat-square&logo=kobotoolbox&logoColor=white)
   ![GIS](https://img.shields.io/badge/GIS-006747?style=flat-square&logo=esri&logoColor=white)
   ![SurveyCTO](https://img.shields.io/badge/SurveyCTO-005BBB?style=flat-square)
