@@ -19,14 +19,12 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
   ![SurveyCTO](https://img.shields.io/badge/SurveyCTO-005BBB?style=flat-square)
   ![Excel](https://img.shields.io/badge/Excel-00BFFF?style=flat-square&logo=microsoft-excel&logoColor=white)
 
-**View cerifications**
-
+**View Certifications**
 [Microsoft Certified: Power BI Data Analyst Associate- PL 300](https://github.com/Mose742/portfolio/blob/main/documents/Certifications%20-%20MosesOkumu-7399%20_%20Microsoft%20Learn.pdf) | 
 [Microsoft Certified: Azure Fundermentals- AZ 900](https://github.com/Mose742/portfolio/blob/main/documents/azure_cert.pdf) | 
 [PM4NGOs: Mearl DPro](https://github.com/Mose742/portfolio/blob/main/documents/mear_dpro.pdf) | 
 [Intro to Python](https://github.com/Mose742/portfolio/blob/main/documents/python.pdf) | 
-[Intro to qGIS](https://github.com/Mose742/portfolio/blob/main/documents/gis.pdf) | 
-
+[Intro to qGIS](https://github.com/Mose742/portfolio/blob/main/documents/gis.pdf) 
 <!--Section 2: List 3-4 key projects-->
 ## DATA ANALYSIS & VISUALIZATION PROJECTS
 
