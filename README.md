@@ -41,25 +41,18 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 
 ![image](code.png)
 
-**2. Power BI Project Performance Monitoring Dashboard.**
-![image](metrix.png)
+**2. Power BI Earthquack Dashboard.**
+![image](earth1.png)
 
-This live Power BI dashboard pulls data from Metrix portal providing an overview of projects, programs, compliance, and sector performance across multiple countries. Key components include:
+Hello, inspired by the recent anniversary of the 2011 Great Tohoku Earthquake, I created a visualization on earthquakes in Japan. Situated along the 'Ring of Fire,' Japan experiences significant seismic activity, providing a wealth of earthquake data. Feel free to explore this visualization to learn more.
 
-  ✅Project Selection Panel (Left Sidebar) : Allows users to filter by specific projects.
+![image](earth2.png)
 
-  ✅Country Profile (Center Panel) : Displays data on countries, including the number of sectors, projects, programs, and indicators.
+I chose a dark theme with red accents to reflect the 'Land of the Rising Sun.' Additionally, I utilized only base Power BI visuals to highlight the capabilities of core Power BI.
+revamped from Kamata
 
-  ✅Key Metrics (Top Right) : Summarizes total projects (117), programs (42), and compliance percentage (41%).
-
-  ✅Compliance Trend (Graph, Right Side) : Shows compliance trends over time.
-
-  ✅Sector Compliance Breakdown (Bottom Right) : Lists different sectors with their compliance percentages and category ratings (e.g., "Excellence," "Good," "Evaluate").
-
-This dashboard is designed for monitoring and evaluation, offering insights into program distribution, compliance performance, and sectoral impact across various countries. 
-![image](model.png)
-
-![Access Restricted](https://img.shields.io/badge/Access%20restricted-as%20per%20organization's%20policy-gray?style=flat-square)
+![image](model2.png)
+[view dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzUyMjVhOTItMjFlOC00NWQzLTk2NTItY2RlZWM4NGRmNjlkIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
 
 **3. Power BI Post pandemic Ridership Trending Report**
 
