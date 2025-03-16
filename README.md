@@ -44,9 +44,6 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 ![image](earth1.png)
 
 Inspired by the recent anniversary of the 2011 Great Tohoku Earthquake, I created a visualization on earthquakes in Japan. Situated along the 'Ring of Fire,' Japan experiences significant seismic activity, providing a wealth of earthquake data.
-
-![image](earth2.png)
-
 I chose a dark theme with red accents to reflect the 'Land of the Rising Sun.' Additionally, I utilized only base Power BI visuals to highlight the capabilities of core Power BI.
 *Revamped from Kamata*
 
