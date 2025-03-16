@@ -86,7 +86,6 @@ For the Burundi market assessment, I conducted a comparative analysis between ba
     
     <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="15.5" height="15.5"></td>
     <td><a href="https://www.linkedin.com/in/mosesokumu/">My LinkedIn</a></td>
-</tr>
 
     <tr>
       <td>📺</td>
