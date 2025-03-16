@@ -21,10 +21,8 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 
 **View cerifications**
 
-[Microsoft Certified: Power BI Data Analyst Associate- PL 300](https://github.com/Mose742/portfolio/blob/main/documents/Certifications%20-%20MosesOkumu-7399%20_%20Microsoft%20Learn.pdf)
-
-[Microsoft Certified: Azure Fundermentals- AZ 900](https://github.com/Mose742/portfolio/blob/main/documents/azure_cert.pdf)
-
+[Microsoft Certified: Power BI Data Analyst Associate- PL 300](https://github.com/Mose742/portfolio/blob/main/documents/Certifications%20-%20MosesOkumu-7399%20_%20Microsoft%20Learn.pdf) | 
+[Microsoft Certified: Azure Fundermentals- AZ 900](https://github.com/Mose742/portfolio/blob/main/documents/azure_cert.pdf) | 
 [PM4NGOs: Mearl DPro](https://github.com/Mose742/portfolio/blob/main/documents/mear_dpro.pdf)
 <!--Section 2: List 3-4 key projects-->
 ## DATA ANALYSIS & VISUALIZATION PROJECTS
