@@ -56,7 +56,7 @@ I chose a dark theme with red accents to reflect the 'Land of the Rising Sun.' A
 The maven commuter challenge shared adataset which i used to create a report for energy usage trends, and applied it to visualising recovery trends of transport usage in the MTA area in the US since the outbreak of the pandemic.
 I have done a bit of a write up for anyone that would like to see the brief and approach as well as the live report. 
 I have even added a few thoughts on potential additional analysis, but this report basically allows an end user to select a transportation method, and look at recovery trends versus: re-pandemic levels and against other transportation methods.
-*Credits to Gerard*
+**Revamped from Gerard*
 
 **4. Burundi Baseline vs Endline Survey Analysis using R**
 
