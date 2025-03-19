@@ -28,11 +28,16 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 <!--Section 2: List 3-4 key projects-->
 ## DATA ANALYSIS & VISUALIZATION PROJECTS
 
-**1. 2007 Life expectancies Analysis using Python, Gapminder dataset.**
+**1. 2007 Life expectancies Dashboard in Python using Quarto, Gapminder dataset.**
 ![image](gapminder.png)
 
-This data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
+This is my final Python bootcamp project on “Data analysis using Python”. The data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
 The Gapminder Foundation is a non-profit venture that promotes sustainable global development and achievement of the United Nations Millennium Development Goals by increasing use and understanding of statistics and other information about social, economic, and environmental development.
+I used visual studio code installed with quarto. Inserted the header for title and format and file format. For surety, render in to preview the dashboard outlook. To insert pages, use the hash tag #, e.g. #1 for page 1 and # 2 for page 2 respectively. 
+You can insert plots by first importing pandas as pd, plotly.express as pd and itables library, create charts and compute the summery statistics, then add them to your pages. and embed them on the preferred pages created above. 
+To indicate the rows, use ## to customize your dashboard, command the height by {xx}. To add column, use the hash ###, customise {}.
+To add tab, use hash i.e. ####.
+You can add value boxes at the top row using markdown syntax::: { value box}:::  and specify value box colour. Source the quarto dashboard theme com and add your favorite theme. Then publish to GitHub. 
 
 [view dashboard](https://mose742.github.io/my_first_repo_2025/gapminder_copy.html)
 
@@ -43,7 +48,6 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 **2. Overall Equipment Effectiveness Dashboard.**
 ![image](oee1.png)
 XXXXX XXX
-![image](oee2.png)
 *Revamped from Kamata*
 ![image](oee3.png)
 [view dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzdhNWFhZDctNDdiMy00OTRmLWJmMWQtY2Y1M2JhNzQ3MGJjIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
