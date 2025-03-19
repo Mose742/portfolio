@@ -58,7 +58,15 @@ XXXXX XXX
 
 ![image](R.png)
 
-For the Burundi market assessment, I conducted a comparative analysis between baseline and endline survey data using R. The analysis focused on evaluating market trends, price variations, and other key economic and social indicators. Statistical significance was assessed using p-values to determine whether observed differences between the two time points were statistically meaningful. The findings provided insights into market dynamics, informing programmatic decisions and intervention strategies.
+The data belongs to organization XX, the organization did baseline and endline survey on their project in country YY to assess the market. Data was collected using ODK and stored in Kobo.    I conducted a comparative analysis between baseline and endline survey data using R. The analysis focused on evaluating market trends, price variations, and other key economic and social indicators. Statistical significance was assessed using p-values to determine whether observed differences between the two time points were statistically meaningful. The findings provided insights into market dynamics, informing programmatic decisions and intervention strategies.
+The following files were developed using R; 
+	Two sample analysis.R- For data preparation
+	Two sample chart visuals library
+	Two sample helper function
+	Validation script
+	Calculated columns
+That baseline and end line data pulled from my PC and transformed to match the xlsx questionnaire.
+
 ![image](r_script.png)
 
 [view on github](https://github.com/Mose742/nyagiheta)
