@@ -41,13 +41,12 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 ![image](code.png)
 
 **2. Overall Equipment Effectiveness Dashboard.**
-![image](earth1.png)
-
+![image](oee1.png)
 XXXXX XXX
+![image](oee2.png)
 *Revamped from Kamata*
-
-![image](model2.png)
-[view dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzUyMjVhOTItMjFlOC00NWQzLTk2NTItY2RlZWM4NGRmNjlkIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
+![image](oee3.png)
+[view dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzdhNWFhZDctNDdiMy00OTRmLWJmMWQtY2Y1M2JhNzQ3MGJjIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
 
 **4. Burundi Baseline vs Endline Survey Analysis using R**
 
