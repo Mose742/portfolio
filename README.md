@@ -28,7 +28,7 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 <!--Section 2: List 3-4 key projects-->
 ## DATA ANALYSIS & VISUALIZATION PROJECTS
 
-**1. 2007 Life expectancies Dashboard in Python using Quarto, Gapminder dataset.**
+**1. 2007 Life expectancies Dashboard in Quarto using Python**
 ![image](gapminder.png)
 
 This is my final Python bootcamp project on “Data analysis using Python”. The data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
@@ -47,14 +47,14 @@ To add tab, use hash i.e. ####. You can add value boxes at the top row using mar
 
 ![image](code.png)
 
-**2. Overall Equipment Effectiveness Dashboard.**
+**2. Power BI Overall Equipment Effectiveness Dashboard**
 ![image](oee1.png)
 XXXXX XXX
 *Revamped from Kamata*
 ![image](oee3.png)
 [view dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzdhNWFhZDctNDdiMy00OTRmLWJmMWQtY2Y1M2JhNzQ3MGJjIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
 
-**4. Burundi Baseline vs Endline Survey Analysis using R**
+**3. Baseline vs Endline Survey Analysis using R**
 
 ![image](R.png)
 
@@ -63,7 +63,7 @@ For the Burundi market assessment, I conducted a comparative analysis between ba
 
 [view on github](https://github.com/Mose742/nyagiheta)
 
-**2. Power BI Earthquack Dashboard.**
+**4. Power BI Earthquack Dashboard.**
 ![image](earth1.png)
 
 Inspired by the recent anniversary of the 2011 Great Tohoku Earthquake, I created a visualization on earthquakes in Japan. Situated along the 'Ring of Fire,' Japan experiences significant seismic activity, providing a wealth of earthquake data.
