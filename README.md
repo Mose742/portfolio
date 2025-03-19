@@ -40,23 +40,14 @@ The Gapminder Foundation is a non-profit venture that promotes sustainable globa
 
 ![image](code.png)
 
-**2. Power BI Earthquack Dashboard.**
+**2. Overall Equipment Effectiveness Dashboard.**
 ![image](earth1.png)
 
-Inspired by the recent anniversary of the 2011 Great Tohoku Earthquake, I created a visualization on earthquakes in Japan. Situated along the 'Ring of Fire,' Japan experiences significant seismic activity, providing a wealth of earthquake data.
-I chose a dark theme with red accents to reflect the 'Land of the Rising Sun.' Additionally, I utilized only base Power BI visuals to highlight the capabilities of core Power BI.
+XXXXX XXX
 *Revamped from Kamata*
 
 ![image](model2.png)
 [view dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzUyMjVhOTItMjFlOC00NWQzLTk2NTItY2RlZWM4NGRmNjlkIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
-
-**3. Power BI Post pandemic Ridership Trending Report**
-
-![image](linkdn2025.png)
-The maven commuter challenge shared adataset which i used to create a report for energy usage trends, and applied it to visualising recovery trends of transport usage in the MTA area in the US since the outbreak of the pandemic.
-I have done a bit of a write up for anyone that would like to see the brief and approach as well as the live report. 
-I have even added a few thoughts on potential additional analysis, but this report basically allows an end user to select a transportation method, and look at recovery trends versus: re-pandemic levels and against other transportation methods.
-*Revamped from Gerard*
 
 **4. Burundi Baseline vs Endline Survey Analysis using R**
 
@@ -66,6 +57,16 @@ For the Burundi market assessment, I conducted a comparative analysis between ba
 ![image](r_script.png)
 
 [view on github](https://github.com/Mose742/nyagiheta)
+
+**2. Power BI Earthquack Dashboard.**
+![image](earth1.png)
+
+Inspired by the recent anniversary of the 2011 Great Tohoku Earthquake, I created a visualization on earthquakes in Japan. Situated along the 'Ring of Fire,' Japan experiences significant seismic activity, providing a wealth of earthquake data.
+I chose a dark theme with red accents to reflect the 'Land of the Rising Sun.' Additionally, I utilized only base Power BI visuals to highlight the capabilities of core Power BI.
+*Revamped from Kamata*
+
+![image](model2.png)
+[view dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzUyMjVhOTItMjFlOC00NWQzLTk2NTItY2RlZWM4NGRmNjlkIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
 
 ## CONTACT DETAILS
 
