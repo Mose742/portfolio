@@ -100,7 +100,7 @@ That baseline and end line data pulled from my PC and transformed to match the x
 
 ![image](r_script.png)
 
-![Protected Data](https://img.shields.io/badge/data%20view-protected-gray?style=flat&logo=lock)
+![Protected View](https://img.shields.io/badge/view%20protected%20as%20per%20organization's%20policy-gray?style=flat&logo=lock)
 
 **4. Power BI Earthquack Dashboard.**
 ![image](earth1.png)
