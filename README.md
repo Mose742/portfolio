@@ -48,18 +48,19 @@ To add tab, use hash i.e. ####. You can add value boxes at the top row using mar
 ![image](code.png)
 
 **2. Power BI Overall Equipment Effectiveness Dashboard**
-![image](oee1.png)
+![image](oee2.png)
 Overall Equipment Effectiveness Dashboard provides a visual representation of manufacturing efficiency and performance. This OEE Dashboard visually presents key performance indicators (KPIs) related to machine efficiency in a manufacturing process. The dashboard is well-structured and provides insights into availability, performance, and quality metrics.
 
-✅ Quality is at 99.78%, meaning minimal defects.
-✅ Performance is high (85.23%), indicating machines are operating efficiently.
-✅ Availability is relatively lower (72.76%), suggesting downtime issues.
-✅ Friction machines have the lowest OEE (51%), which may need attention.
-✅ "Other" machines have the highest OEE (80%), showing the best performance
+**Features**
+ -Quality is at 99.78%, meaning minimal defects.
+ -Performance is high (85.23%), indicating machines are operating efficiently.
+ -Availability is relatively lower (72.76%), suggesting downtime issues.
+ -Friction machines have the lowest OEE (51%), which may need attention.
+ -"Other" machines have the highest OEE (80%), showing the best performance
+ 
 Each of these metrics is displayed using a gauge chart, providing a quick visual representation of efficiency.
-Trend Analysis (Middle Section)
-Line Chart: Shows the monthly trend of availability from January to July.
-Availability fluctuates, peaking in March and May but dropping in July.
+Trend Analysis (Middle Section). Line Chart: Shows the monthly trend of availability from January to July. Availability fluctuates, peaking in March and May but dropping in July.
+
 Bar Chart: Compares total hours vs. runtime across months.
 February and June show the highest working hours.
 Lower runtime in some months may indicate downtime issues
