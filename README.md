@@ -28,27 +28,8 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 <!--Section 2: List 3-4 key projects-->
 ## DATA ANALYSIS & VISUALIZATION PROJECTS
 
-**1. 2007 Life expectancies Dashboard in Quarto using Python**
-![image](gapminder.png)
-
-This is my final Python bootcamp project on “Data analysis using Python”. The data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
-
-The Gapminder Foundation is a non-profit venture that promotes sustainable global development and achievement of the United Nations Millennium Development Goals by increasing use and understanding of statistics and other information about social, economic, and environmental development.
-
-I used visual studio code installed with quarto. Inserted the header for title and format and file format. For surety, render in to preview the dashboard outlook. To insert pages, use the hash tag #, e.g. #1 for page 1 and # 2 for page 2 respectively. 
-You can insert plots by first importing pandas as pd, plotly.express as pd and itables library, create charts and compute the summery statistics, then add them to your pages. and embed them on the preferred pages created above. 
-
-To indicate the rows, use ## to customize your dashboard, command the height by {xx}. To add column, use the hash ###, customise {}.
-To add tab, use hash i.e. ####. You can add value boxes at the top row using markdown syntax::: { value box}:::  and specify value box colour. Source the quarto dashboard theme com and add your favorite theme. Then publish to GitHub. 
-
-[view dashboard](https://mose742.github.io/my_first_repo_2025/gapminder_copy.html)
-
-[view on github](https://github.com/Mose742/my_first_repo_2025/blob/main/gapminder_copy.qmd)
-
-![image](code.png)
-
-**2. Power BI Overall Equipment Effectiveness Dashboard**
-![image](oee2.png)
+**1. Power BI Overall Equipment Effectiveness Dashboard**
+![image](oee25.png)
 Overall Equipment Effectiveness Dashboard provides a visual representation of manufacturing efficiency and performance. This OEE Dashboard visually presents key performance indicators (KPIs) related to machine efficiency in a manufacturing process. The dashboard is well-structured and provides insights into availability, performance, and quality metrics.
 
 **Features**
@@ -81,6 +62,25 @@ Tips and formatting: *Page navigation on single page, Key performance indicators
 [view dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzdhNWFhZDctNDdiMy00OTRmLWJmMWQtY2Y1M2JhNzQ3MGJjIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
 
 [pbx file and data on github](https://github.com/Mose742/power_bi_files)
+
+**2. 2007 Life expectancies Dashboard in Quarto using Python**
+![image](gapminder.png)
+
+This is my final Python bootcamp project on “Data analysis using Python”. The data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
+
+The Gapminder Foundation is a non-profit venture that promotes sustainable global development and achievement of the United Nations Millennium Development Goals by increasing use and understanding of statistics and other information about social, economic, and environmental development.
+
+I used visual studio code installed with quarto. Inserted the header for title and format and file format. For surety, render in to preview the dashboard outlook. To insert pages, use the hash tag #, e.g. #1 for page 1 and # 2 for page 2 respectively. 
+You can insert plots by first importing pandas as pd, plotly.express as pd and itables library, create charts and compute the summery statistics, then add them to your pages. and embed them on the preferred pages created above. 
+
+To indicate the rows, use ## to customize your dashboard, command the height by {xx}. To add column, use the hash ###, customise {}.
+To add tab, use hash i.e. ####. You can add value boxes at the top row using markdown syntax::: { value box}:::  and specify value box colour. Source the quarto dashboard theme com and add your favorite theme. Then publish to GitHub. 
+
+[view dashboard](https://mose742.github.io/my_first_repo_2025/gapminder_copy.html)
+
+[view on github](https://github.com/Mose742/my_first_repo_2025/blob/main/gapminder_copy.qmd)
+
+![image](code.png)
 
 **3. Baseline vs Endline Survey Analysis using R**
 
