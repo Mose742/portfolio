@@ -49,10 +49,35 @@ To add tab, use hash i.e. ####. You can add value boxes at the top row using mar
 
 **2. Power BI Overall Equipment Effectiveness Dashboard**
 ![image](oee1.png)
-XXXXX XXX
-*Revamped from Kamata*
+Overall Equipment Effectiveness Dashboard provides a visual representation of manufacturing efficiency and performance. This OEE Dashboard visually presents key performance indicators (KPIs) related to machine efficiency in a manufacturing process. The dashboard is well-structured and provides insights into availability, performance, and quality metrics.
+
+✅ Quality is at 99.78%, meaning minimal defects.
+✅ Performance is high (85.23%), indicating machines are operating efficiently.
+✅ Availability is relatively lower (72.76%), suggesting downtime issues.
+✅ Friction machines have the lowest OEE (51%), which may need attention.
+✅ "Other" machines have the highest OEE (80%), showing the best performance
+Each of these metrics is displayed using a gauge chart, providing a quick visual representation of efficiency.
+Trend Analysis (Middle Section)
+Line Chart: Shows the monthly trend of availability from January to July.
+Availability fluctuates, peaking in March and May but dropping in July.
+Bar Chart: Compares total hours vs. runtime across months.
+February and June show the highest working hours.
+Lower runtime in some months may indicate downtime issues
+Machine-Specific OEE Analysis (Right Section)
+Gauge Charts for Each Machine Type (Lathe, Other, Hydraulic, Friction, Eccentric, Saw)
+OEE, Availability, Performance, and Quality are shown for each machine.
+"Other" machines perform best (OEE: 80%), while Friction machines perform worst (OEE: 51%).
+Quality is consistently at 100% across all machine types, meaning defects are minimal.
+
+Filters (Left Sidebar)
+Month Selector: Allows users to filter data by selecting specific months (Jan to Jul).
+Machine Type Selector: Enables users to analyze performance for different types of machines.
+
 ![image](oee3.png)
+Tips and formatting: Page navigation on single page, Key performance indicators, Filters, Slices, Measures, Visuals, Svgs, Power BI key visuals eg cards, donut chart, Bookmarks and Modeling
+
 [view dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzdhNWFhZDctNDdiMy00OTRmLWJmMWQtY2Y1M2JhNzQ3MGJjIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
+[pbx file and data on github](https://github.com/Mose742/power_bi_files)
 
 **3. Baseline vs Endline Survey Analysis using R**
 
