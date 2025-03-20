@@ -76,7 +76,7 @@ Month Selector: Allows users to filter data by selecting specific months (Jan to
 Machine Type Selector: Enables users to analyze performance for different types of machines.
 
 ![image](oee3.png)
-Tips and formatting: Page navigation on single page, Key performance indicators, Filters, Slices, Measures, Visuals, Svgs, Power BI key visuals eg cards, donut chart, Bookmarks and Modeling
+Tips and formatting: *Page navigation on single page, Key performance indicators, Filters, Slices, Measures, Visuals, Svgs, Power BI key visuals eg cards, donut chart, Bookmarks and Modeling*
 
 [view dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzdhNWFhZDctNDdiMy00OTRmLWJmMWQtY2Y1M2JhNzQ3MGJjIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
 
