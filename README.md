@@ -58,7 +58,7 @@ Month Selector: Allows users to filter data by selecting specific months (Jan to
 Machine Type Selector: Enables users to analyze performance for different types of machines.
 
 ![image](oee3.png)
-Tips and formatting: *Page navigation on single page, Key performance indicators, Filters, Slices, Measures, Visuals, Svgs, Power BI key visuals eg cards, donut chart, Bookmarks and Modeling*
+Tips and formatting: *Page navigation on single page, Key performance indicators, Filters, Slices, Measures, Visuals, Svgs, Power BI key visuals eg cards, donut chart, Bookmarks and Modeling*.
 *[View files on github](https://github.com/Mose742/power_bi_files)*
 
 **2. 2007 Life expectancies Dashboard in Quarto using Python**
