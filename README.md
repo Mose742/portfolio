@@ -7,7 +7,7 @@ Hello! I'm Moses Okumu, a data analyst and visualization expert. With experience
 <!--Mention your top/relevant skills here - core and soft skills-->
 ## WHAT I DO
 
-As Impact Systems Officer at World relief, i transform data into actionable insights using Power BI, R, Python and Excel.
+As Impact Systems Officer at World relief, I transform data into actionable insights for program decison making.
 
   ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
   ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
@@ -16,7 +16,7 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
   ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
   ![KoboCollect](https://img.shields.io/badge/KoboCollect-005BBB?style=flat-square&logo=kobotoolbox&logoColor=white)
   ![GIS](https://img.shields.io/badge/GIS-006747?style=flat-square&logo=esri&logoColor=white)
-  ![SurveyCTO](https://img.shields.io/badge/SurveyCTO-005BBB?style=flat-square)
+  ![ODK](https://img.shields.io/badge/ODK-005BBB?style=flat-square)
 
 **View Certifications**
 
@@ -30,13 +30,14 @@ As Impact Systems Officer at World relief, i transform data into actionable insi
 
 **1. Power BI Overall Equipment Effectiveness Dashboard**
 ![image](oee25.png)
-Overall Equipment Effectiveness Dashboard provides a visual representation of manufacturing efficiency and performance. This OEE Dashboard visually presents key performance indicators (KPIs) related to machine efficiency in a manufacturing process. The dashboard is well-structured and provides insights into availability, performance, and quality metrics.
+Overall Equipment Effectiveness [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzdhNWFhZDctNDdiMy00OTRmLWJmMWQtY2Y1M2JhNzQ3MGJjIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9) provides a visual representation of manufacturing efficiency and performance. This OEE Dashboard visually presents key performance indicators (KPIs) related to machine efficiency in a manufacturing process. The dashboard is well-structured and provides insights into availability, performance, and quality metrics.
 
 **Features**
 
- - Quality is at 99.78%, meaning minimal defects.
- - Performance is high (85.23%), indicating machines are operating efficiently.
+ - OEE is at 61.87%.
  - Availability is relatively lower (72.76%), suggesting downtime issues.
+ - Performance is high (85.23%), indicating machines are operating efficiently.
+ - Quality is at 99.78%, meaning minimal defects.
  - Friction machines have the lowest OEE (51%), which may need attention.
  - "Other" machines have the highest OEE (80%), showing the best performance
  
