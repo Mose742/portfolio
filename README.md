@@ -59,8 +59,7 @@ Machine Type Selector: Enables users to analyze performance for different types 
 
 ![image](oee3.png)
 Tips and formatting: *Page navigation on single page, Key performance indicators, Filters, Slices, Measures, Visuals, Svgs, Power BI key visuals eg cards, donut chart, Bookmarks and Modeling*
-
-[pbx file and data on github](https://github.com/Mose742/power_bi_files)
+*[View files on github](https://github.com/Mose742/power_bi_files)*
 
 **2. 2007 Life expectancies Dashboard in Quarto using Python**
 ![image](gapminder.png)
@@ -74,8 +73,7 @@ You can insert plots by first importing pandas as pd, plotly.express as pd and i
 
 To indicate the rows, use ## to customize your dashboard, command the height by {xx}. To add column, use the hash ###, customise {}.
 To add tab, use hash i.e. ####. You can add value boxes at the top row using markdown syntax::: { value box}:::  and specify value box colour. Source the quarto dashboard theme com and add your favorite theme. Then publish to GitHub. 
-
-[view on github](https://github.com/Mose742/my_first_repo_2025/blob/main/gapminder_copy.qmd)
+*[View files on github](https://github.com/Mose742/my_first_repo_2025/blob/main/gapminder_copy.qmd)*
 
 ![image](code.png)
 
