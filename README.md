@@ -16,7 +16,7 @@ As Impact Systems Officer at World relief, I transform data into actionable insi
   ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
   ![KoboCollect](https://img.shields.io/badge/KoboCollect-005BBB?style=flat-square&logo=kobotoolbox&logoColor=white)
   ![GIS](https://img.shields.io/badge/GIS-006747?style=flat-square&logo=esri&logoColor=white)
-  ![ODK](https://img.shields.io/badge/ODK-E0E0E0?style=flat-square)
+  ![ODK](https://img.shields.io/badge/ODK-C0C0C0?style=flat-square)
 
 **View Certifications**
 
