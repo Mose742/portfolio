@@ -60,14 +60,12 @@ Machine Type Selector: Enables users to analyze performance for different types 
 ![image](oee3.png)
 Tips and formatting: *Page navigation on single page, Key performance indicators, Filters, Slices, Measures, Visuals, Svgs, Power BI key visuals eg cards, donut chart, Bookmarks and Modeling*
 
-[view dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzdhNWFhZDctNDdiMy00OTRmLWJmMWQtY2Y1M2JhNzQ3MGJjIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
-
 [pbx file and data on github](https://github.com/Mose742/power_bi_files)
 
 **2. 2007 Life expectancies Dashboard in Quarto using Python**
 ![image](gapminder.png)
 
-This is my final Python bootcamp project on “Data analysis using Python”. The data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
+This [Dashboard](https://mose742.github.io/my_first_repo_2025/gapminder_copy.html) is my final Python bootcamp project on “Data analysis using Python”. The data comes from the python `plotly.express` library’s `gapminder` dataset, which is originally sourced from the Gapminder Foundation.
 
 The Gapminder Foundation is a non-profit venture that promotes sustainable global development and achievement of the United Nations Millennium Development Goals by increasing use and understanding of statistics and other information about social, economic, and environmental development.
 
@@ -76,8 +74,6 @@ You can insert plots by first importing pandas as pd, plotly.express as pd and i
 
 To indicate the rows, use ## to customize your dashboard, command the height by {xx}. To add column, use the hash ###, customise {}.
 To add tab, use hash i.e. ####. You can add value boxes at the top row using markdown syntax::: { value box}:::  and specify value box colour. Source the quarto dashboard theme com and add your favorite theme. Then publish to GitHub. 
-
-[view dashboard](https://mose742.github.io/my_first_repo_2025/gapminder_copy.html)
 
 [view on github](https://github.com/Mose742/my_first_repo_2025/blob/main/gapminder_copy.qmd)
 
@@ -106,12 +102,11 @@ That baseline and end line data pulled from my PC and transformed to match the x
 **4. Power BI Earthquack Dashboard.**
 ![image](earth1.png)
 
-Inspired by the recent anniversary of the 2011 Great Tohoku Earthquake, I created a visualization on earthquakes in Japan. Situated along the 'Ring of Fire,' Japan experiences significant seismic activity, providing a wealth of earthquake data.
+Inspired by the recent anniversary of the 2011 Great Tohoku Earthquake, I created a [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzUyMjVhOTItMjFlOC00NWQzLTk2NTItY2RlZWM4NGRmNjlkIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9) visualization on earthquakes in Japan. Situated along the 'Ring of Fire,' Japan experiences significant seismic activity, providing a wealth of earthquake data.
 I chose a dark theme with red accents to reflect the 'Land of the Rising Sun.' Additionally, I utilized only base Power BI visuals to highlight the capabilities of core Power BI.
 *Revamped from Kamata*
 
 ![image](model2.png)
-[view dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzUyMjVhOTItMjFlOC00NWQzLTk2NTItY2RlZWM4NGRmNjlkIiwidCI6ImU4ZjAzNDIxLWFjZGItNDE5MC04N2M0LTJlNDVkYWNkMmQxYSIsImMiOjF9)
 
 ## CONTACT DETAILS
 
