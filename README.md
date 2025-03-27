@@ -1,7 +1,7 @@
 <!--Section 1: Introduce your self-->
 ## ABOUT ME
 
-Hello! I'm Moses Okumu, a data analyst and visualization expert. With experience across humanitarian, health and research. I help organizations solve challenges and unlock growth through data demand and information use.
+Hello! I'm Moses Okumu, a data analyst and a monitoring & evaluation expert. With experience across humanitarian, health and research. I help organizations solve challenges and unlock growth through data demand and information use.
 
 
 <!--Mention your top/relevant skills here - core and soft skills-->
