@@ -7,7 +7,7 @@ Hello! I'm Moses Okumu, a data analyst and a monitoring & evaluation expert. Wit
 <!--Mention your top/relevant skills here - core and soft skills-->
 ## WHAT I DO
 
-As Impact Systems Officer at World relief, I transform data into actionable insights for program decision making.
+As an M&E and Data Analyst, I collect, manage, and analyse data to support evidence-based decision-making in humanitarian and development programs. I design surveys, develop dashboards and measure program impact using M&E frameworks like ToC and DMEAL. Additionally, I train teams and support country offices in data-driven reporting and analytics.
 
   ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
   ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
