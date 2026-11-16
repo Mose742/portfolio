@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - assets/files/*
+
+website:
+  title: "Moses Okumu"
+  description: "Data systems, analytics and digital MERL portfolio — Power BI, R, Python, SQL and data engineering for humanitarian and public-health programmes."
+  site-url: "https://mose742.github.io/portfolio/"
+  repo-url: "https://github.com/mose742/portfolio"
+  favicon: assets/img/favicon.svg
+  page-navigation: true
+  back-to-top-navigation: true
+  open-graph: true
+  navbar:
+    title: "Moses Okumu"
+    logo: assets/img/favicon.svg
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Projects
+        href: projects/index.qmd
+      - text: Skills
+        href: skills.qmd
+      - text: Experience
+        href: experience.qmd
+      - text: Contact
+        href: contact.qmd
+      - icon: github
+        href: https://github.com/mose742
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mosesokumu/
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Moses Okumu · Nairobi, Kenya"
+    right: "Built with [Quarto](https://quarto.org) · Hosted on GitHub Pages"
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/theme-light.scss]
+      dark: [cosmo, assets/theme-dark.scss]
+    css: assets/styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-copy: true
+    highlight-style: github
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    include-after-body: assets/site.html

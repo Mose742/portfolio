@@ -1,0 +1,71 @@
+---
+title: "Experience"
+subtitle: "10+ years across humanitarian, public-health and research programmes. Expand a role to see the detail."
+---
+
+```{=html}
+<div class="btn-row" style="margin:0 0 1rem"><a class="btn-mo outline" href="assets/files/Moses_Okumu_CV.pdf"><i class="bi bi-file-earmark-pdf"></i> Download CV (PDF)</a></div>
+
+<div class="timeline">
+
+ <div class="tl-item current reveal">
+  <div class="tl-date">AUG 2021 – PRESENT</div>
+  <h3>Data Analytics &amp; Impact Officer</h3>
+  <div class="tl-org">World Relief · Nairobi (remote) · multi-country refugee and host-community programmes</div>
+  <div class="chips"><span class="chip">Power BI</span><span class="chip">Kobo/ODK</span><span class="chip">SharePoint</span><span class="chip">Python</span><span class="chip amber">DQA</span></div>
+  <details open><summary>Key achievements</summary><ul>
+   <li><b>Integrated results platform:</b> one Power BI view of reach against FY26 targets across 6 country offices and 10+ projects.</li>
+   <li><b>10+ dashboards</b> (Reach &amp; Strategy Targets, WASH Facility Assessment, HR Staff Tracker): monthly reporting turnaround cut from 14 to 7 days.</li>
+   <li><b>Deduplication model</b> in DAX applying indicator counting rules across projects and services.</li>
+   <li><b>ONA → Kobo migration</b> of 50+ forms with zero data loss (ODK Briefcase + Python/Jupyter).</li>
+   <li><b>DQA framework</b> (piloting, audits, validation, reconciliation) across 6 country offices.</li>
+   <li>Built the <b>FY27 Assessment Planning Workbook</b> and a SharePoint MEAL hub; trained and mentored <b>10+ staff</b>.</li>
+  </ul></details>
+ </div>
+
+ <div class="tl-item current reveal">
+  <div class="tl-date">2026 – PRESENT</div>
+  <h3>Founder &amp; Lead Trainer / Data Consultant</h3>
+  <div class="tl-org">Moses Analytics · Nairobi</div>
+  <div class="chips"><span class="chip">Training</span><span class="chip">BigQuery</span><span class="chip">R</span></div>
+  <details><summary>Key achievements</summary><ul>
+   <li>Applied Power BI, R and data-analysis training for <b>20 professionals from 5 organisations</b>.</li>
+   <li>Power BI on Google BigQuery comparing costs and patient experience across health-wallet payment models.</li>
+   <li>Reproducible R pipelines and R Markdown reports for a child-protection survey (ODK).</li>
+  </ul></details>
+ </div>
+
+ <div class="tl-item reveal">
+  <div class="tl-date">MAY 2017 – JUL 2021</div>
+  <h3>Data Management Assistant</h3>
+  <div class="tl-org">NASCOP, National AIDS &amp; STI Control Programme · Nairobi</div>
+  <div class="chips"><span class="chip">DHIS2</span><span class="chip">EMR</span><span class="chip amber">Data quality</span></div>
+  <details><summary>Key achievements</summary><ul>
+   <li>Cut EMR-to-DHIS2 discrepancies from <b>over 15% to under 5%</b> across <b>101 facilities</b> in 2 counties.</li>
+   <li>Supported <b>90%+ reporting completeness</b> through DHIS2 verification against log-frame indicators.</li>
+   <li>Championed EMR rollout and optimisation; delivered ToT and mentorship on national data tools.</li>
+  </ul></details>
+ </div>
+
+ <div class="tl-item reveal">
+  <div class="tl-date">OCT 2015 – SEP 2017</div>
+  <h3>Data &amp; Health Records Officer</h3>
+  <div class="tl-org">Kenya Medical Research Institute (KEMRI) · Kisumu</div>
+  <div class="chips"><span class="chip">Research data</span><span class="chip">Codebooks</span><span class="chip">SOPs</span></div>
+  <details><summary>Key achievements</summary><ul>
+   <li>Developed and implemented study questionnaires and data-collection tools aligned to protocols.</li>
+   <li>Ran completeness, consistency and validity checks, producing documented, analysis-ready datasets.</li>
+   <li>Produced tables, charts and dashboards for study reports; maintained data dictionaries and SOPs.</li>
+  </ul></details>
+ </div>
+</div>
+
+<h2 class="section" style="margin-top:2rem">Education &amp; certifications</h2>
+<div class="grid-2" style="margin-top:1rem">
+ <div class="card-mo"><div class="icon-badge"><i class="bi bi-mortarboard"></i></div><h3>MSc Data Analytics</h3><p>Nexford University, Washington DC (remote) · expected 2027</p></div>
+ <div class="card-mo"><div class="icon-badge"><i class="bi bi-patch-check"></i></div><h3>Microsoft Certified: Power BI Data Analyst Associate</h3><p>PL-300 · Microsoft · 2024</p></div>
+ <div class="card-mo"><div class="icon-badge"><i class="bi bi-filetype-py"></i></div><h3>Python Basics &amp; Beyond</h3><p>The GRAPH Courses · 2025</p></div>
+ <div class="card-mo"><div class="icon-badge"><i class="bi bi-book"></i></div><h3>BSc Information Management</h3><p>Kenyatta University, Nairobi · 2015</p></div>
+</div>
+<p class="muted" style="margin-top:1.4rem">References available on request.</p>
+```

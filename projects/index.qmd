@@ -1,0 +1,18 @@
+---
+title: "Projects"
+subtitle: "Case studies in data systems, analytics engineering and visualization. Filter by tool using the categories on the right."
+page-layout: full
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "order"
+  categories: true
+  sort-ui: [title, date]
+  filter-ui: true
+  fields: [image, title, description, categories]
+---
+
+::: {.note-box}
+**About the data.** Work done for employers and clients is described here as case studies with illustrative visuals. No real programme or beneficiary data is shown. Projects built on public datasets carry the **Open data** tag.
+:::

@@ -1,0 +1,102 @@
+---
+title: "Skills & toolkit"
+subtitle: "The tools I use across the data lifecycle, grouped by where they sit in the pipeline. Use the buttons to filter."
+page-layout: full
+---
+
+```{=html}
+<div class="skill-filter">
+  <button class="active" data-filter="all">All</button>
+  <button data-filter="viz">Visualization &amp; BI</button>
+  <button data-filter="eng">Data engineering</button>
+  <button data-filter="prog">Programming</button>
+  <button data-filter="collect">Data collection</button>
+  <button data-filter="quality">Quality &amp; governance</button>
+</div>
+
+<div class="grid-3">
+  <div class="card-mo skill-card" data-group="viz">
+    <div class="icon-badge"><i class="bi bi-bar-chart-line"></i></div><h3>Power BI</h3>
+    <ul class="tool-list">
+      <li><span>DAX measures &amp; KPIs</span><span class="use">deduplication, targets</span></li>
+      <li><span>Power Query (M)</span><span class="use">reshaping, cleaning</span></li>
+      <li><span>Data modelling</span><span class="use">star schema</span></li>
+      <li><span>Power BI Service</span><span class="use">workspaces, RLS, refresh</span></li>
+      <li><span>Deneb / Vega-Lite</span><span class="use">custom visuals</span></li>
+    </ul><div class="chips"><span class="chip amber">PL-300 certified</span></div>
+  </div>
+  <div class="card-mo skill-card" data-group="prog viz">
+    <div class="icon-badge"><i class="bi bi-graph-up"></i></div><h3>R</h3>
+    <ul class="tool-list">
+      <li><span>tidyverse</span><span class="use">dplyr, tidyr, purrr</span></li>
+      <li><span>ggplot2</span><span class="use">publication charts</span></li>
+      <li><span>R Markdown / Quarto</span><span class="use">reproducible reports</span></li>
+      <li><span>Survey analysis</span><span class="use">ODK exports, KPIs</span></li>
+    </ul>
+  </div>
+  <div class="card-mo skill-card" data-group="prog eng">
+    <div class="icon-badge"><i class="bi bi-filetype-py"></i></div><h3>Python</h3>
+    <ul class="tool-list">
+      <li><span>pandas</span><span class="use">wrangling</span></li>
+      <li><span>Jupyter</span><span class="use">pipelines, notebooks</span></li>
+      <li><span>requests / REST APIs</span><span class="use">Kobo, ONA transfers</span></li>
+    </ul>
+  </div>
+  <div class="card-mo skill-card" data-group="eng">
+    <div class="icon-badge"><i class="bi bi-database"></i></div><h3>Databases &amp; architecture</h3>
+    <ul class="tool-list">
+      <li><span>SQL</span><span class="use">querying, shaping</span></li>
+      <li><span>Google BigQuery</span><span class="use">cloud warehouse</span></li>
+      <li><span>Relational / star schema</span><span class="use">model design</span></li>
+      <li><span>Data dictionaries &amp; codebooks</span><span class="use">documentation</span></li>
+    </ul>
+  </div>
+  <div class="card-mo skill-card" data-group="eng">
+    <div class="icon-badge"><i class="bi bi-diagram-3"></i></div><h3>Integration &amp; interoperability</h3>
+    <ul class="tool-list">
+      <li><span>API-based data transfer</span><span class="use">Kobo, ONA</span></li>
+      <li><span>SharePoint as a source</span><span class="use">trackers, lists</span></li>
+      <li><span>Data migration</span><span class="use">ONA → Kobo</span></li>
+      <li><span>Git &amp; GitHub</span><span class="use">version control</span></li>
+    </ul>
+  </div>
+  <div class="card-mo skill-card" data-group="collect">
+    <div class="icon-badge"><i class="bi bi-phone"></i></div><h3>Digital data collection</h3>
+    <ul class="tool-list">
+      <li><span>KoboToolbox</span><span class="use">forms, permissions</span></li>
+      <li><span>ODK / ONA</span><span class="use">deployment</span></li>
+      <li><span>XLSForm</span><span class="use">skip logic, constraints</span></li>
+      <li><span>ODK Briefcase</span><span class="use">export, backup</span></li>
+    </ul>
+  </div>
+  <div class="card-mo skill-card" data-group="collect quality">
+    <div class="icon-badge"><i class="bi bi-hospital"></i></div><h3>Health information systems</h3>
+    <ul class="tool-list">
+      <li><span>DHIS2</span><span class="use">routine HIV reporting</span></li>
+      <li><span>EMR systems</span><span class="use">rollout, reconciliation</span></li>
+    </ul>
+  </div>
+  <div class="card-mo skill-card" data-group="quality">
+    <div class="icon-badge"><i class="bi bi-shield-check"></i></div><h3>Data quality &amp; governance</h3>
+    <ul class="tool-list">
+      <li><span>DQA plans &amp; audits</span><span class="use">6 country offices</span></li>
+      <li><span>Validation &amp; reconciliation</span><span class="use">source vs report</span></li>
+      <li><span>Deduplication</span><span class="use">counting rules</span></li>
+      <li><span>Role-based access</span><span class="use">Kobo, SharePoint, Power BI</span></li>
+    </ul>
+  </div>
+  <div class="card-mo skill-card" data-group="quality viz">
+    <div class="icon-badge"><i class="bi bi-people"></i></div><h3>Capacity building</h3>
+    <ul class="tool-list">
+      <li><span>Training of Trainers</span><span class="use">health workers, M&amp;E staff</span></li>
+      <li><span>Applied Power BI &amp; R courses</span><span class="use">Moses Analytics</span></li>
+      <li><span>SOPs &amp; documentation</span><span class="use">SharePoint MEAL hub</span></li>
+    </ul>
+  </div>
+</div>
+
+<section class="section-block">
+  <div class="eyebrow">Languages</div>
+  <div class="chips" style="margin-top:.6rem"><span class="chip">English: fluent</span><span class="chip">Kiswahili: fluent</span><span class="chip">French: beginner</span></div>
+</section>
+```

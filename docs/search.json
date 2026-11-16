@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Skills & toolkit",
+    "section": "",
+    "text": "All\n  Visualization & BI\n  Data engineering\n  Programming\n  Data collection\n  Quality & governance\n\n\n\n  \n    Power BI\n    \n      DAX measures & KPIsdeduplication, targets\n      Power Query (M)reshaping, cleaning\n      Data modellingstar schema\n      Power BI Serviceworkspaces, RLS, refresh\n      Deneb / Vega-Litecustom visuals\n    PL-300 certified\n  \n  \n    R\n    \n      tidyversedplyr, tidyr, purrr\n      ggplot2publication charts\n      R Markdown / Quartoreproducible reports\n      Survey analysisODK exports, KPIs\n    \n  \n  \n    Python\n    \n      pandaswrangling\n      Jupyterpipelines, notebooks\n      requests / REST APIsKobo, ONA transfers\n    \n  \n  \n    Databases & architecture\n    \n      SQLquerying, shaping\n      Google BigQuerycloud warehouse\n      Relational / star schemamodel design\n      Data dictionaries & codebooksdocumentation\n    \n  \n  \n    Integration & interoperability\n    \n      API-based data transferKobo, ONA\n      SharePoint as a sourcetrackers, lists\n      Data migrationONA → Kobo\n      Git & GitHubversion control\n    \n  \n  \n    Digital data collection\n    \n      KoboToolboxforms, permissions\n      ODK / ONAdeployment\n      XLSFormskip logic, constraints\n      ODK Briefcaseexport, backup\n    \n  \n  \n    Health information systems\n    \n      DHIS2routine HIV reporting\n      EMR systemsrollout, reconciliation\n    \n  \n  \n    Data quality & governance\n    \n      DQA plans & audits6 country offices\n      Validation & reconciliationsource vs report\n      Deduplicationcounting rules\n      Role-based accessKobo, SharePoint, Power BI\n    \n  \n  \n    Capacity building\n    \n      Training of Trainershealth workers, M&E staff\n      Applied Power BI & R coursesMoses Analytics\n      SOPs & documentationSharePoint MEAL hub\n    \n  \n\n\n\n  Languages\n  English: fluentKiswahili: fluentFrench: beginner\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/ona-kobo-migration/index.html#the-problem",
+    "href": "projects/ona-kobo-migration/index.html#the-problem",
+    "title": "ONA → KoboToolbox migration pipeline",
+    "section": "The problem",
+    "text": "The problem\nProgrammes were moving from ONA to KoboToolbox. Re-entering historical submissions by hand was not an option, and neither was losing them."
+  },
+  {
+    "objectID": "projects/ona-kobo-migration/index.html#pipeline",
+    "href": "projects/ona-kobo-migration/index.html#pipeline",
+    "title": "ONA → KoboToolbox migration pipeline",
+    "section": "Pipeline",
+    "text": "Pipeline\n\n 1 · ExportPull submissions and media from ONA with ODK Briefcase→\n 2 · MatchDeploy the same XLSForm on Kobo and check field names line up→\n 3 · UploadPython notebook posts each submission XML to the Kobo API→\n 4 · ReconcileCompare counts and IDs, source against target\n\nimport requests, pathlib\n\nKOBO = \"https://kf.kobotoolbox.org\"\nheaders = {\"Authorization\": f\"Token {API_TOKEN}\"}\n\nfor xml in pathlib.Path(\"briefcase/instances\").rglob(\"submission.xml\"):\n    files = {\"xml_submission_file\": open(xml, \"rb\")}\n    # attach media saved next to the submission\n    for m in xml.parent.glob(\"*.jpg\"):\n        files[m.name] = open(m, \"rb\")\n    r = requests.post(f\"{KOBO}/api/v1/submissions\", headers=headers, files=files)\n    log(xml.parent.name, r.status_code)\nSimplified for illustration. The production notebook adds retries, duplicate checks and a reconciliation report."
+  },
+  {
+    "objectID": "projects/ona-kobo-migration/index.html#impact",
+    "href": "projects/ona-kobo-migration/index.html#impact",
+    "title": "ONA → KoboToolbox migration pipeline",
+    "section": "Impact",
+    "text": "Impact\n\nSubmissions from 50+ forms transferred with no data loss.\nDocumented and reusable for later migrations.\n\n← All projectsDiscuss a similar project"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "About the data. Work done for employers and clients is described here as case studies with illustrative visuals. No real programme or beneficiary data is shown. Projects built on public datasets carry the Open data tag.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntegrated multi-country results platform\n\n\n\nPower BI\n\nDAX\n\nPower Query\n\nSharePoint\n\nData engineering\n\n\n\nLinking KoboToolbox, ODK, SharePoint and Excel into one Power BI view of reach against FY26 strategy targets across 6 country offices.\n\n\n\n\n\n\n\n\n\n\n\n\nBeneficiary deduplication model in DAX\n\n\n\nPower BI\n\nDAX\n\nData quality\n\nKPI design\n\n\n\nCounting rules that stop the same person being counted twice across projects and services, so reach figures hold up with donors.\n\n\n\n\n\n\n\n\n\n\n\n\nONA → KoboToolbox migration pipeline\n\n\n\nPython\n\nJupyter\n\nAPI\n\nData engineering\n\nODK\n\n\n\nA repeatable workflow (ODK Briefcase export, then a Python/Jupyter upload through the Kobo API) that moved 50+ forms with zero data loss.\n\n\n\n\n\n\n\n\n\n\n\n\nEMR ↔︎ DHIS2 data-quality programme\n\n\n\nDHIS2\n\nEMR\n\nData quality\n\nPublic health\n\n\n\nRoutine checks, verification visits and feedback that cut EMR-to-DHIS2 reporting discrepancies from over 15% to under 5% across 101 facilities.\n\n\n\n\n\n\n\n\n\n\n\n\nHealth-wallet cost & patient-experience analytics\n\n\n\nPower BI\n\nBigQuery\n\nSQL\n\nPower Query\n\nConsulting\n\n\n\nA Power BI report on Google BigQuery comparing costs and patient experience across digital health-wallet payment models.\n\n\n\n\n\n\n\n\n\n\n\n\nChild-protection survey pipeline in R\n\n\n\nR\n\ntidyverse\n\nR Markdown\n\nSurvey analytics\n\nODK\n\n\n\nReproducible R pipelines for ODK survey data, with KPI variables, reusable plotting functions and R Markdown reports.\n\n\n\n\n\n\n\n\n\n\n\n\nHealth-facility assessment XLSForm\n\n\n\nXLSForm\n\nODK\n\nKoboToolbox\n\nData quality\n\n\n\nDesign, deployment and quality review of a Kobo/ODK facility-assessment tool, with skip logic, constraints, an enumerator manual and a DQA plan.\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "projects/dhis2-data-quality/index.html#the-problem",
+    "href": "projects/dhis2-data-quality/index.html#the-problem",
+    "title": "EMR ↔︎ DHIS2 data-quality programme",
+    "section": "The problem",
+    "text": "The problem\nHIV programme numbers reported in DHIS2 did not match what facility EMR systems held. Gaps of more than 15% weakened trust in the national data."
+  },
+  {
+    "objectID": "projects/dhis2-data-quality/index.html#approach",
+    "href": "projects/dhis2-data-quality/index.html#approach",
+    "title": "EMR ↔︎ DHIS2 data-quality programme",
+    "section": "Approach",
+    "text": "Approach\n\nRoutine reconciliation of EMR exports against DHIS2 monthly reports, indicator by indicator.\nVerification visits to facilities with the largest or most persistent gaps.\nCorrective feedback and mentorship for facility staff on national tools and reporting standards.\nEMR rollout support, helping facilities adopt the EMR and make better use of it.\n\n\n \n &gt;15%\n &lt;5%\n Before\n After"
+  },
+  {
+    "objectID": "projects/dhis2-data-quality/index.html#impact",
+    "href": "projects/dhis2-data-quality/index.html#impact",
+    "title": "EMR ↔︎ DHIS2 data-quality programme",
+    "section": "Impact",
+    "text": "Impact\n\nDiscrepancy cut from over 15% to under 5% across 101 facilities.\nReporting completeness held at 90% or more.\n\n← All projectsDiscuss a similar project"
+  },
+  {
+    "objectID": "projects/child-protection-r/index.html#approach",
+    "href": "projects/child-protection-r/index.html#approach",
+    "title": "Child-protection survey pipeline in R",
+    "section": "Approach",
+    "text": "Approach\n\nImport and clean ODK exports: label choices, handle select_multiple columns, check skip-logic consistency.\nDerive KPI variables once, in one script, from documented definitions.\nReusable plotting functions so every chart shares the same style and annotation.\nR Markdown reports that rebuild from raw data in a single run.\n\nplot_kpi &lt;- function(df, kpi, by) {\n  df |&gt;\n    group_by({{ by }}) |&gt;\n    summarise(pct = mean({{ kpi }}, na.rm = TRUE)) |&gt;\n    ggplot(aes(pct, fct_reorder({{ by }}, pct))) +\n    geom_col(fill = \"#0f766e\") +\n    scale_x_continuous(labels = scales::percent) +\n    labs(x = NULL, y = NULL) +\n    theme_minimal(base_family = \"Inter\")\n}\n← All projectsDiscuss a similar project"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "Download CV (PDF)\n\n\n\n \n  AUG 2021 – PRESENT\n  Data Analytics & Impact Officer\n  World Relief · Nairobi (remote) · multi-country refugee and host-community programmes\n  Power BIKobo/ODKSharePointPythonDQA\n  Key achievements\n   Integrated results platform: one Power BI view of reach against FY26 targets across 6 country offices and 10+ projects.\n   10+ dashboards (Reach & Strategy Targets, WASH Facility Assessment, HR Staff Tracker): monthly reporting turnaround cut from 14 to 7 days.\n   Deduplication model in DAX applying indicator counting rules across projects and services.\n   ONA → Kobo migration of 50+ forms with zero data loss (ODK Briefcase + Python/Jupyter).\n   DQA framework (piloting, audits, validation, reconciliation) across 6 country offices.\n   Built the FY27 Assessment Planning Workbook and a SharePoint MEAL hub; trained and mentored 10+ staff.\n  \n \n\n \n  2026 – PRESENT\n  Founder & Lead Trainer / Data Consultant\n  Moses Analytics · Nairobi\n  TrainingBigQueryR\n  Key achievements\n   Applied Power BI, R and data-analysis training for 20 professionals from 5 organisations.\n   Power BI on Google BigQuery comparing costs and patient experience across health-wallet payment models.\n   Reproducible R pipelines and R Markdown reports for a child-protection survey (ODK).\n  \n \n\n \n  MAY 2017 – JUL 2021\n  Data Management Assistant\n  NASCOP, National AIDS & STI Control Programme · Nairobi\n  DHIS2EMRData quality\n  Key achievements\n   Cut EMR-to-DHIS2 discrepancies from over 15% to under 5% across 101 facilities in 2 counties.\n   Supported 90%+ reporting completeness through DHIS2 verification against log-frame indicators.\n   Championed EMR rollout and optimisation; delivered ToT and mentorship on national data tools.\n  \n \n\n \n  OCT 2015 – SEP 2017\n  Data & Health Records Officer\n  Kenya Medical Research Institute (KEMRI) · Kisumu\n  Research dataCodebooksSOPs\n  Key achievements\n   Developed and implemented study questionnaires and data-collection tools aligned to protocols.\n   Ran completeness, consistency and validity checks, producing documented, analysis-ready datasets.\n   Produced tables, charts and dashboards for study reports; maintained data dictionaries and SOPs.\n  \n \n\n\nEducation & certifications\n\n MSc Data AnalyticsNexford University, Washington DC (remote) · expected 2027\n Microsoft Certified: Power BI Data Analyst AssociatePL-300 · Microsoft · 2024\n Python Basics & BeyondThe GRAPH Courses · 2025\n BSc Information ManagementKenyatta University, Nairobi · 2015\n\nReferences available on request.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Emailmoseso664@gmail.comCopy\n  LinkedInlinkedin.com/in/mosesokumu\n  GitHubgithub.com/mose742\n  LocationNairobi, Kenya · works remotely across time zones\n  \n   How I can help\n   Results & M&E data systemsPower BI dashboards and data modelsKobo / ODK tool design and migrationData-quality assessmentsPower BI and R training for teams\n  \n \n \n  Send a message\n  \n  \n  Job opportunityConsulting projectTrainingCollaborationOther\n  \n  Open email draft →\n  \n \n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Moses Okumu · Data Systems & Analytics",
+    "section": "",
+    "text": "Data Systems & Digital MERL Specialist · Nairobi, Kenya\n      I turn field data into decisions that programmes can trust.\n      \n      10+ years building databases, dashboards, digital data-collection tools and data-quality systems for multi-country humanitarian, public-health and research programmes across Africa.\n      \n        View projects →\n        Experience\n        Get in touch\n      \n    \n\n    \n    \n      results_platform.pbix\n      \n        \n        Country offices\n        6\n        \n        Dashboards\n        10+\n        \n        Reporting days\n        14→7\n        \n        Reach vs target by quarter (illustrative)\n        \n          \n          \n          \n          \n          \n          target\n          Q1Q2Q3Q4\n        \n      \n    \n  \n\n\n\n\n  15% → &lt;5%EMR-to-DHIS2 reporting discrepancy cut across 101 facilities (NASCOP)\n  50+forms migrated from ONA to KoboToolbox with zero data loss\n  6 countriesmulti-country M&E systems supported at World Relief\n  50+staff trained on Kobo/ODK, data quality and Power BI\n\n\n\n\n  What I doEnd-to-end results systems\n  From the first XLSForm question to the dashboard a country director opens on Monday morning: collection → validation → storage → integration → reporting.\n  \n    Dashboards & automated reportingPower BI models with DAX and Power Query, star schemas and indicator counting rules, built for leadership, donors and field teams.Power BIDAXPower Query (M)Excel\n    Data engineering & integrationLinking Kobo, ODK/ONA, SharePoint, BigQuery and Excel into one reliable model. API transfers, migrations and reproducible pipelines.SQLBigQueryPythonAPIs\n    Data quality & digital MERLXLSForms with skip logic and constraints, DQA frameworks, deduplication and reconciliation, so the numbers hold up under audit.KoboToolboxODKDHIS2DQA\n  \n\n\n\n\n  Selected workFeatured projectsAll projects →\n  \n    Power BISharePointKoboIntegrated multi-country results platformOne view of reach against FY26 strategy targets across 6 country offices and 10+ projects.▲ reporting turnaround 14 → 7 days\n    DHIS2EMRDQAEMR ↔ DHIS2 data-quality programmeRoutine checks, verification visits and feedback loops across 101 HIV-care facilities.▼ discrepancy &gt;15% → &lt;5%\n    PythonJupyterAPIONA → KoboToolbox migration pipelineA repeatable export–transform–upload workflow built with ODK Briefcase and Python.✓ 50+ forms · zero data loss\n  \n\n\n\n\n  \n    \n      Credentials\n      Certified, and still learning\n      \n        Microsoft Certified: Power BI Data Analyst Associate (PL-300)2024\n        MSc Data Analytics, Nexford Universityexpected 2027\n        Python Basics & Beyond, The GRAPH Courses2025\n        BSc Information Management, Kenyatta University2015\n      \n    \n    \n      Where I've worked\n      Humanitarian · public health · research\n      \n        World Relief: Data Analytics & Impact Officer2021 – now\n        Moses Analytics: Founder & Lead Trainer2026 – now\n        NASCOP: Data Management Assistant2017 – 2021\n        KEMRI: Data & Health Records Officer2015 – 2017\n      \n    \n  \n\n\n\n\n  \n    Need a results system, a dashboard or a data-skills training?\n    I work with NGOs, health programmes and research teams. I also run applied Power BI and R training through Moses Analytics.\n    Start a conversationSee my toolkit\n  \n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/dedup-model/index.html#the-problem",
+    "href": "projects/dedup-model/index.html#the-problem",
+    "title": "Beneficiary deduplication model in DAX",
+    "section": "The problem",
+    "text": "The problem\nOne person can receive several services from several projects in one year. Summing reach across projects overstates the portfolio, which is a credibility risk in donor reporting."
+  },
+  {
+    "objectID": "projects/dedup-model/index.html#approach",
+    "href": "projects/dedup-model/index.html#approach",
+    "title": "Beneficiary deduplication model in DAX",
+    "section": "Approach",
+    "text": "Approach\n\nDefine the unit of count for each indicator: unique individual, household or service contact.\nBuild a stable person key from available identifiers, with fallbacks when IDs are missing.\nApply counting rules in the model, not in the visuals, so every report inherits them.\nShow both views: total services delivered and unique people reached, with the gap made visible.\n\nUnique Beneficiaries Reached =\nCALCULATE (\n    DISTINCTCOUNT ( Reach[PersonKey] ),\n    Reach[CountingRule] = \"Unique individual\",\n    REMOVEFILTERS ( Reach[Service] )\n)\n\nDouble-count Avoided =\n[Total Service Contacts] - [Unique Beneficiaries Reached]"
+  },
+  {
+    "objectID": "projects/dedup-model/index.html#impact",
+    "href": "projects/dedup-model/index.html#impact",
+    "title": "Beneficiary deduplication model in DAX",
+    "section": "Impact",
+    "text": "Impact\n\nReach figures follow written counting rules that donors can check.\nProjects and services can be combined without inflating totals.\n\n← All projectsDiscuss a similar project"
+  },
+  {
+    "objectID": "projects/health-financing-bigquery/index.html#the-question",
+    "href": "projects/health-financing-bigquery/index.html#the-question",
+    "title": "Health-wallet cost & patient-experience analytics",
+    "section": "The question",
+    "text": "The question\nDo different digital health-wallet payment models change what patients pay and how they rate their care?"
+  },
+  {
+    "objectID": "projects/health-financing-bigquery/index.html#what-i-did",
+    "href": "projects/health-financing-bigquery/index.html#what-i-did",
+    "title": "Health-wallet cost & patient-experience analytics",
+    "section": "What I did",
+    "text": "What I did\n\nConnected Power BI to Google BigQuery and shaped long-format survey responses into an analysis-ready model in Power Query: question metadata, response values and respondent dimensions.\nBuilt comparison measures for cost and experience scores by payment model, with filters for facility and respondent group.\nDesigned the report around the decision, not the dataset: a headline comparison first, drill-downs second.\n\n-- shape responses before import\nSELECT respondent_id, payment_model, question_code,\n       SAFE_CAST(response_value AS FLOAT64) AS value\nFROM   `project.survey.responses`\nWHERE  question_code IN ('cost_total', 'satisfaction')\n\nClient work. The visuals here are illustrative, and client data stays private.\n\n← All projectsDiscuss a similar project"
+  },
+  {
+    "objectID": "projects/malawi-xlsform/index.html#design-principles",
+    "href": "projects/malawi-xlsform/index.html#design-principles",
+    "title": "Health-facility assessment XLSForm",
+    "section": "Design principles",
+    "text": "Design principles\n\nValidate at the point of entry. Constraints and required fields catch errors before data leaves the tablet.\nAsk only what applies. relevant logic hides questions that don’t fit the facility.\nName things for analysis. Variable names and choice lists are set up for Power BI and R from the start.\n\n\n\n\n\n\n\n\n\n\n\ntype\nname\nlabel\nrelevant\nconstraint\n\n\n\n\nselect_one yn\nhas_water\nDoes the facility have a functioning water source?\n\n\n\n\nselect_one source\nwater_source\nMain water source\n${has_water} = 'yes'\n\n\n\ninteger\nhandwash_stations\nNumber of handwashing stations\n${has_water} = 'yes'\n. &gt;= 0 and . &lt;= 50"
+  },
+  {
+    "objectID": "projects/malawi-xlsform/index.html#deliverables",
+    "href": "projects/malawi-xlsform/index.html#deliverables",
+    "title": "Health-facility assessment XLSForm",
+    "section": "Deliverables",
+    "text": "Deliverables\nXLSForm, enumerator manual, pilot feedback log and DQA plan.\n← All projectsDiscuss a similar project"
+  },
+  {
+    "objectID": "projects/results-platform/index.html#the-problem",
+    "href": "projects/results-platform/index.html#the-problem",
+    "title": "Integrated multi-country results platform",
+    "section": "The problem",
+    "text": "The problem\nEach country office reported reach in its own spreadsheet format, on its own schedule. Leadership had no single, current answer to a simple question: how many people are we reaching against our strategy targets? Monthly consolidation took about two weeks of manual copy-and-paste."
+  },
+  {
+    "objectID": "projects/results-platform/index.html#what-i-built",
+    "href": "projects/results-platform/index.html#what-i-built",
+    "title": "Integrated multi-country results platform",
+    "section": "What I built",
+    "text": "What I built\n\n CollectKoboToolbox / ODK forms, SharePoint trackers, Excel workbooks→\n ValidateConstraints at entry, Power Query checks, DQA review→\n ModelStar schema: fact reach, dimension project, country, indicator, date→\n ReportReach vs target dashboards, drill-through by country and project\n\n\nOne data model fed by every source, with shared dimension tables for country, project, indicator and fiscal period (Oct–Sep fiscal year).\nIndicator definitions and counting rules documented once and applied in DAX, so every page counts the same way.\nRole-based access through Power BI workspaces and SharePoint permissions, so country teams see their data and leadership sees the portfolio.\nCompanion dashboards on the same pattern: WASH health-facility assessment (ONA/ODK) and an HR staff tracker."
+  },
+  {
+    "objectID": "projects/results-platform/index.html#sample-measure",
+    "href": "projects/results-platform/index.html#sample-measure",
+    "title": "Integrated multi-country results platform",
+    "section": "Sample measure",
+    "text": "Sample measure\nReach vs Target % =\nVAR _reach  = [Unique Beneficiaries Reached]\nVAR _target = SUM ( Targets[FY26 Target] )\nRETURN DIVIDE ( _reach, _target )"
+  },
+  {
+    "objectID": "projects/results-platform/index.html#impact",
+    "href": "projects/results-platform/index.html#impact",
+    "title": "Integrated multi-country results platform",
+    "section": "Impact",
+    "text": "Impact\n\nMonthly reporting turnaround cut from 14 days to 7.\n10+ interactive dashboards in routine use by programme and leadership staff.\nCountry indicators aligned to the organisational Impact Framework and DMEAL guidance.\n\n← All projectsDiscuss a similar project"
+  }
+]
