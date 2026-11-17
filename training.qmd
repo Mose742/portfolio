@@ -1,0 +1,40 @@
+---
+title: "Training & demos"
+subtitle: "Short clips from my Power BI training sessions and dashboard walk-throughs. Press play, or use full screen for detail."
+page-layout: full
+---
+
+```{=html}
+<div class="train-intro">
+  <div>
+    <div class="eyebrow">Moses Analytics</div>
+    <h2 class="section" style="margin-top:.4rem">I teach teams to build their own dashboards</h2>
+    <p class="muted">Hands-on Power BI, R and data-analysis training for NGO, health and research staff, built around their own data. So far I've trained <b>20 professionals from 5 organisations</b> through Moses Analytics, and <b>100+ staff</b> on Kobo/ODK, data quality and Power BI at World Relief and NASCOP.</p>
+    <div class="chips"><span class="chip">Power BI bootcamps</span><span class="chip">DAX &amp; data modelling</span><span class="chip">R for data analysis</span><span class="chip">Kobo / ODK</span><span class="chip amber">Training of Trainers</span></div>
+    <div class="btn-row"><a class="btn-mo primary" href="contact.html">Book a training →</a></div>
+  </div>
+  <figure class="vid vid-feature">
+    <video controls preload="metadata" playsinline poster="assets/video/powerbi_bootcamp_day9.jpg">
+      <source src="assets/video/powerbi_bootcamp_day9.mp4" type="video/mp4">
+    </video>
+    <figcaption><b>Power BI Bootcamp · Day 9 of 10</b><span>Forecasting with analytics lines, KPI gauges, and assembling a health dashboard, live in Power BI Desktop.</span></figcaption>
+  </figure>
+</div>
+
+<h2 class="section" style="margin-top:2.6rem">Dashboard demos</h2>
+<p class="muted">Interaction designed in: drill-downs, time comparisons and tooltips that answer the next question.</p>
+<div class="grid-2" style="margin-top:1rem">
+  <figure class="vid">
+    <video controls preload="metadata" playsinline poster="assets/video/revenue_time_comparison.jpg">
+      <source src="assets/video/revenue_time_comparison.mp4" type="video/mp4">
+    </video>
+    <figcaption><b>Revenue vs prior year: time-comparison dashboard</b><span>Switch between point-to-point, prior-months and prior-years views, pick a focus range, and compare actuals with the prior year by segment, country and customer.</span></figcaption>
+  </figure>
+  <figure class="vid">
+    <video controls preload="metadata" playsinline loop muted poster="assets/video/donut_drilldown.jpg">
+      <source src="assets/video/donut_drilldown.mp4" type="video/mp4">
+    </video>
+    <figcaption><b>Interactive donut drill-down</b><span>Hover a country to break its sales into segments in an outer ring. One visual answers "how much?" and "made of what?".</span></figcaption>
+  </figure>
+</div>
+```

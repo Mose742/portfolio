@@ -12,7 +12,10 @@ page-layout: full
 <section class="hero hero-viz">
   <div class="hero-grid">
     <div>
-      <div class="eyebrow">Data Visualization &amp; Analytics · Nairobi, Kenya</div>
+      <div class="who">
+        <img src="assets/img/moses.jpg" alt="Moses Okumu">
+        <div><b>Moses Okumu</b><span>Data Visualization &amp; Analytics Specialist · Nairobi, Kenya</span></div>
+      </div>
       <h1>Charts that make the data <span class="grad">speak plainly.</span></h1>
       <div class="typed" data-words='["ggplot2 · ggtext · ggalluvial","Power BI · Deneb · Vega-Lite","data stories · storyboards","DAX · Power Query · SQL","R · Python · BigQuery"]'></div>
       <p class="lead">I design data stories in R, Power BI and Deneb, and build the data systems behind them. I've spent 10+ years turning field data from humanitarian and public-health programmes into charts people act on.</p>
@@ -76,6 +79,18 @@ page-layout: full
       <span class="more">Read the story →</span>
     </div>
   </a>
+
+  <a class="story flip reveal" href="projects/oee-dashboard/index.html">
+    <div class="story-img"><img src="projects/oee-dashboard/oee_dashboard.jpg" alt="Overall Equipment Effectiveness dashboard"></div>
+    <div class="story-body">
+      <div class="chips"><span class="chip">Power BI</span><span class="chip">DAX</span><span class="chip">Report design</span><span class="chip amber">Live dashboard</span></div>
+      <h3>Overall Equipment Effectiveness</h3>
+      <p class="q">Which machines are losing time, and is it downtime, speed or quality?</p>
+      <p>An interactive Power BI dashboard that breaks OEE into availability, performance and quality, by month and by machine type. You can open it and click through it.</p>
+      <div class="story-stats"><div><b>61.9%</b><span>overall OEE</span></div><div><b>72.8%</b><span>availability</span></div><div><b>6</b><span>machine types</span></div></div>
+      <span class="more">Explore the dashboard →</span>
+    </div>
+  </a>
 </section>
 
 <!-- ================= PRINCIPLES ================= -->
@@ -100,6 +115,29 @@ page-layout: full
   </div>
 </section>
 
+<!-- ================= TRAINING ================= -->
+<section class="section-block reveal">
+  <div class="section-head"><div><div class="eyebrow">Training</div><h2 class="section">I also teach it</h2>
+  <p class="muted" style="max-width:46rem">Power BI bootcamps and R training for NGO, health and research teams through Moses Analytics. Here's a 30-second clip from day 9 of a 10-day bootcamp.</p></div><a href="training.html">Training &amp; demos →</a></div>
+  <div class="train-home">
+    <figure class="vid">
+      <video controls preload="metadata" playsinline poster="assets/video/powerbi_bootcamp_day9.jpg">
+        <source src="assets/video/powerbi_bootcamp_day9.mp4" type="video/mp4">
+      </video>
+    </figure>
+    <div class="card-mo" style="height:auto">
+      <ul class="tool-list">
+        <li><span><b>20</b> professionals trained</span><span class="use">5 organisations</span></li>
+        <li><span><b>100+</b> staff mentored</span><span class="use">World Relief · NASCOP</span></li>
+        <li><span>Power BI bootcamps</span><span class="use">10-day, hands-on</span></li>
+        <li><span>R &amp; data analysis</span><span class="use">tidyverse, ggplot2</span></li>
+        <li><span>Kobo / ODK &amp; data quality</span><span class="use">field teams</span></li>
+      </ul>
+      <div class="btn-row" style="margin-top:1rem"><a class="btn-mo primary" href="training.html">Watch the demos →</a></div>
+    </div>
+  </div>
+</section>
+
 <!-- ================= BEHIND THE CHARTS ================= -->
 <section class="section-block reveal">
   <div class="section-head"><div><div class="eyebrow">Behind the charts</div><h2 class="section">I also build the data systems</h2>
@@ -110,10 +148,14 @@ page-layout: full
     <div class="kpi"><div class="num"><span class="count" data-to="6">6</span> countries</div><div class="lbl">multi-country M&amp;E systems at World Relief</div></div>
     <div class="kpi"><div class="num"><span class="count" data-to="100" data-suffix="+">100+</span></div><div class="lbl">staff trained on Kobo/ODK, data quality and Power BI</div></div>
   </div>
-  <div class="cred-row">
-    <span><i class="bi bi-patch-check"></i> Microsoft Certified: Power BI Data Analyst (PL-300)</span>
-    <span><i class="bi bi-mortarboard"></i> MSc Data Analytics, Nexford (2027)</span>
-    <span><i class="bi bi-filetype-py"></i> Python Basics &amp; Beyond, GRAPH Courses</span>
+  <h3 class="cert-head">Certifications</h3>
+  <div class="certs">
+    <div class="cert"><i class="bi bi-microsoft"></i><div><b>Power BI Data Analyst Associate</b><span>Microsoft Certified · PL-300</span></div></div>
+    <div class="cert"><i class="bi bi-cloud"></i><div><b>Azure Fundamentals</b><span>Microsoft Certified · AZ-900</span></div></div>
+    <div class="cert"><i class="bi bi-clipboard-data"></i><div><b>MEAL DPro</b><span>PM4NGOs</span></div></div>
+    <div class="cert"><i class="bi bi-filetype-py"></i><div><b>Python Basics &amp; Beyond</b><span>The GRAPH Courses</span></div></div>
+    <div class="cert"><i class="bi bi-globe-americas"></i><div><b>Introduction to QGIS</b><span>Geospatial analysis</span></div></div>
+    <div class="cert"><i class="bi bi-mortarboard"></i><div><b>MSc Data Analytics</b><span>Nexford University · 2027</span></div></div>
   </div>
 </section>
 

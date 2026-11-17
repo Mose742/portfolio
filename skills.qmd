@@ -68,6 +68,8 @@ page-layout: full
       <li><span>SharePoint as a source</span><span class="use">trackers, lists</span></li>
       <li><span>Data migration</span><span class="use">ONA → Kobo</span></li>
       <li><span>Git &amp; GitHub</span><span class="use">version control</span></li>
+      <li><span>QGIS</span><span class="use">maps, spatial data</span></li>
+      <li><span>Microsoft Azure</span><span class="use">AZ-900 fundamentals</span></li>
     </ul>
   </div>
   <div class="card-mo skill-card" data-group="collect">

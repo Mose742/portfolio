@@ -3,7 +3,7 @@ title: "Child-protection survey pipeline in R"
 description: "Reproducible R pipelines for ODK survey data, with KPI variables, reusable plotting functions and R Markdown reports."
 date: 2026-08-15
 date-format: "MMM YYYY"
-order: 9
+order: 10
 image: thumb.svg
 categories: ["R", "tidyverse", "R Markdown", "Survey analytics", "ODK"]
 ---

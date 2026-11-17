@@ -3,7 +3,7 @@ title: "Integrated multi-country results platform"
 description: "Linking KoboToolbox, ODK, SharePoint and Excel into one Power BI view of reach against FY26 strategy targets across 6 country offices."
 date: 2025-10-01
 date-format: "MMM YYYY"
-order: 4
+order: 5
 image: thumb.svg
 categories: ["Power BI", "DAX", "Power Query", "SharePoint", "Data engineering"]
 ---

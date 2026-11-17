@@ -40,15 +40,27 @@
     var txt=b.dataset.copy; try { navigator.clipboard.writeText(txt).then(function(){ b.textContent='Copied'; setTimeout(function(){b.textContent='Copy';},1500); }); } catch(e){}
   }); });
 
-  // contact form -> opens email draft
+  // contact form -> sends directly via FormSubmit; falls back to an email draft
   var form = document.querySelector('.contact-form');
   if (form) form.addEventListener('submit', function(ev){
     ev.preventDefault();
-    var d = new FormData(form);
-    var body = encodeURIComponent(d.get('message') + '\n\n— ' + d.get('name') + (d.get('org') ? ', ' + d.get('org') : ''));
-    var subj = encodeURIComponent('[Portfolio] ' + d.get('topic') + ' — ' + d.get('name'));
-    window.location.href = 'mailto:' + form.dataset.to + '?subject=' + subj + '&body=' + body;
-    var s = form.querySelector('.form-status'); if (s) s.textContent = 'Your email app should open with the message ready to send. If it does not, email ' + form.dataset.to + ' directly.';
+    var d = new FormData(form), st = form.querySelector('.form-status'), btn = form.querySelector('button[type=submit]');
+    if (d.get('_honey')) return;
+    var payload = { name: d.get('name'), email: d.get('email'), organisation: d.get('org') || '-', topic: d.get('topic'),
+                    message: d.get('message'), _subject: '[Portfolio] ' + d.get('topic') + ' from ' + d.get('name'),
+                    _template: 'table', _captcha: 'false' };
+    btn.disabled = true; btn.textContent = 'Sending…'; st.className = 'form-status small'; st.textContent = '';
+    fetch(form.dataset.endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(payload) })
+      .then(function(r){ return r.json().then(function(j){ return { ok: r.ok && String(j.success) !== 'false', j: j }; }); })
+      .then(function(res){
+        if (!res.ok) throw new Error('failed');
+        form.reset(); st.classList.add('ok'); st.textContent = 'Thank you! Your message has been sent. I will reply to your email soon.';
+      })
+      .catch(function(){
+        st.classList.add('err');
+        st.innerHTML = 'Sorry, the message could not be sent right now. Please email <b>' + form.dataset.to + '</b> directly.';
+      })
+      .finally(function(){ btn.disabled = false; btn.textContent = 'Send message →'; });
   });
   // gallery filter + lightbox
   var gb = document.querySelectorAll('.gal-filter button'), items = Array.prototype.slice.call(document.querySelectorAll('.g-item'));

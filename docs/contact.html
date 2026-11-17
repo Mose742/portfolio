@@ -49,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-6a2c8bac0186c4d18dc446080865dfb0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f0e9a4f208c6e4266bb7aea3a2bdf4a0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-eea96d6955ec51fc097a70327dd2338b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-f0e9a4f208c6e4266bb7aea3a2bdf4a0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4270e6473c96bdbf9a9bc1edc1fc6689.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-772abfa483bdc064188d7bfb578025f2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-4270e6473c96bdbf9a9bc1edc1fc6689.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -268,8 +268,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/img/favicon.svg" alt="" class="navbar-logo light-content">
-    <img src="./assets/img/favicon.svg" alt="" class="navbar-logo dark-content">
+    <img src="./assets/img/moses.jpg" alt="Moses Okumu" class="navbar-logo light-content">
+    <img src="./assets/img/moses.jpg" alt="Moses Okumu" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Moses Okumu</span>
@@ -291,6 +291,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./projects/index.html"> 
 <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./training.html"> 
+<span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./skills.html"> 
@@ -363,14 +367,16 @@ ul.task-list li input[type="checkbox"] {
    <ul class="tool-list"><li><span>Results &amp; M&amp;E data systems</span></li><li><span>Power BI dashboards and data models</span></li><li><span>Kobo / ODK tool design and migration</span></li><li><span>Data-quality assessments</span></li><li><span>Power BI and R training for teams</span></li></ul>
   </div>
  </div>
- <form class="contact-form card-mo" data-to="moseso664@gmail.com" style="height:auto">
+ <form class="contact-form card-mo" data-endpoint="https://formsubmit.co/ajax/moseso664@gmail.com" data-to="moseso664@gmail.com" style="height:auto">
   <h3 style="margin-top:0" class="anchored">Send a message</h3>
   <input name="name" placeholder="Your name" required="">
+  <input name="email" type="email" placeholder="Your email (so I can reply)" required="">
   <input name="org" placeholder="Organisation (optional)">
   <select name="topic"><option>Job opportunity</option><option>Consulting project</option><option>Training</option><option>Collaboration</option><option>Other</option></select>
   <textarea name="message" rows="6" placeholder="What are you working on?" required=""></textarea>
-  <button class="btn-mo primary" type="submit" style="border:0">Open email draft →</button>
-  <p class="form-status muted small" style="margin-top:.8rem"></p>
+  <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+  <button class="btn-mo primary" type="submit" style="border:0">Send message →</button>
+  <p class="form-status small" style="margin-top:.8rem"></p>
  </form>
 </div>
 
@@ -419,15 +425,27 @@ ul.task-list li input[type="checkbox"] {
     var txt=b.dataset.copy; try { navigator.clipboard.writeText(txt).then(function(){ b.textContent='Copied'; setTimeout(function(){b.textContent='Copy';},1500); }); } catch(e){}
   }); });
 
-  // contact form -> opens email draft
+  // contact form -> sends directly via FormSubmit; falls back to an email draft
   var form = document.querySelector('.contact-form');
   if (form) form.addEventListener('submit', function(ev){
     ev.preventDefault();
-    var d = new FormData(form);
-    var body = encodeURIComponent(d.get('message') + '\n\n— ' + d.get('name') + (d.get('org') ? ', ' + d.get('org') : ''));
-    var subj = encodeURIComponent('[Portfolio] ' + d.get('topic') + ' — ' + d.get('name'));
-    window.location.href = 'mailto:' + form.dataset.to + '?subject=' + subj + '&body=' + body;
-    var s = form.querySelector('.form-status'); if (s) s.textContent = 'Your email app should open with the message ready to send. If it does not, email ' + form.dataset.to + ' directly.';
+    var d = new FormData(form), st = form.querySelector('.form-status'), btn = form.querySelector('button[type=submit]');
+    if (d.get('_honey')) return;
+    var payload = { name: d.get('name'), email: d.get('email'), organisation: d.get('org') || '-', topic: d.get('topic'),
+                    message: d.get('message'), _subject: '[Portfolio] ' + d.get('topic') + ' from ' + d.get('name'),
+                    _template: 'table', _captcha: 'false' };
+    btn.disabled = true; btn.textContent = 'Sending…'; st.className = 'form-status small'; st.textContent = '';
+    fetch(form.dataset.endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(payload) })
+      .then(function(r){ return r.json().then(function(j){ return { ok: r.ok && String(j.success) !== 'false', j: j }; }); })
+      .then(function(res){
+        if (!res.ok) throw new Error('failed');
+        form.reset(); st.classList.add('ok'); st.textContent = 'Thank you! Your message has been sent. I will reply to your email soon.';
+      })
+      .catch(function(){
+        st.classList.add('err');
+        st.innerHTML = 'Sorry, the message could not be sent right now. Please email <b>' + form.dataset.to + '</b> directly.';
+      })
+      .finally(function(){ btn.disabled = false; btn.textContent = 'Send message →'; });
   });
   // gallery filter + lightbox
   var gb = document.querySelectorAll('.gal-filter button'), items = Array.prototype.slice.call(document.querySelectorAll('.g-item'));

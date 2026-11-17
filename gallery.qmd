@@ -6,11 +6,16 @@ page-layout: full
 
 ```{=html}
 <div class="skill-filter gal-filter">
-  <button class="active" data-filter="all">All (10)</button>
+  <button class="active" data-filter="all">All (11)</button>
   <button data-filter="r">R · ggplot2 (8)</button>
-  <button data-filter="deneb">Power BI · Deneb (2)</button>
+  <button data-filter="deneb">Deneb (2)</button>
+  <button data-filter="pbi">Power BI dashboards (1)</button>
 </div>
 <div class="gallery">
+  <figure class="g-item" data-tool="pbi" tabindex="0" data-src="projects/oee-dashboard/oee_dashboard.jpg" data-title="Overall Equipment Effectiveness" data-sub="Power BI · interactive dashboard" data-link="projects/oee-dashboard/index.html">
+   <img src="projects/oee-dashboard/oee_dashboard.jpg" alt="Overall Equipment Effectiveness">
+   <figcaption><b>Overall Equipment Effectiveness</b><span>Power BI · interactive dashboard</span></figcaption>
+  </figure>
   <figure class="g-item" data-tool="r" tabindex="0" data-src="projects/education-inequality/01_scores_by_type.jpg" data-title="Whatever the school type, the typical score is about 70%" data-sub="Same Money, Same Scores? · strip plot" data-link="projects/education-inequality/index.html">
    <img src="projects/education-inequality/01_scores_by_type.jpg" alt="Whatever the school type, the typical score is about 70%" loading="lazy">
    <figcaption><b>Whatever the school type, the typical score is about 70%</b><span>Same Money, Same Scores? · strip plot</span></figcaption>

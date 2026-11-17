@@ -3,7 +3,7 @@ title: "EMR ↔ DHIS2 data-quality programme"
 description: "Routine checks, verification visits and feedback that cut EMR-to-DHIS2 reporting discrepancies from over 15% to under 5% across 101 facilities."
 date: 2020-06-01
 date-format: "MMM YYYY"
-order: 7
+order: 8
 image: thumb.svg
 categories: ["DHIS2", "EMR", "Data quality", "Public health"]
 ---

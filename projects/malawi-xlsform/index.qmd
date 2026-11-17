@@ -3,7 +3,7 @@ title: "Health-facility assessment XLSForm"
 description: "Design, deployment and quality review of a Kobo/ODK facility-assessment tool, with skip logic, constraints, an enumerator manual and a DQA plan."
 date: 2025-11-01
 date-format: "MMM YYYY"
-order: 10
+order: 11
 image: thumb.svg
 categories: ["XLSForm", "ODK", "KoboToolbox", "Data quality"]
 ---

@@ -64,7 +64,10 @@ subtitle: "10+ years across humanitarian, public-health and research programmes.
 <div class="grid-2" style="margin-top:1rem">
  <div class="card-mo"><div class="icon-badge"><i class="bi bi-mortarboard"></i></div><h3>MSc Data Analytics</h3><p>Nexford University, Washington DC (remote) · expected 2027</p></div>
  <div class="card-mo"><div class="icon-badge"><i class="bi bi-patch-check"></i></div><h3>Microsoft Certified: Power BI Data Analyst Associate</h3><p>PL-300 · Microsoft · 2024</p></div>
+ <div class="card-mo"><div class="icon-badge"><i class="bi bi-cloud"></i></div><h3>Microsoft Certified: Azure Fundamentals</h3><p>AZ-900 · Microsoft</p></div>
+ <div class="card-mo"><div class="icon-badge"><i class="bi bi-clipboard-data"></i></div><h3>MEAL DPro</h3><p>PM4NGOs · Monitoring, Evaluation, Accountability &amp; Learning</p></div>
  <div class="card-mo"><div class="icon-badge"><i class="bi bi-filetype-py"></i></div><h3>Python Basics &amp; Beyond</h3><p>The GRAPH Courses · 2025</p></div>
+ <div class="card-mo"><div class="icon-badge"><i class="bi bi-globe-americas"></i></div><h3>Introduction to QGIS</h3><p>Geospatial data and mapping</p></div>
  <div class="card-mo"><div class="icon-badge"><i class="bi bi-book"></i></div><h3>BSc Information Management</h3><p>Kenyatta University, Nairobi · 2015</p></div>
 </div>
 <p class="muted" style="margin-top:1.4rem">References available on request.</p>

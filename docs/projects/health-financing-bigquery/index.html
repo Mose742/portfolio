@@ -85,9 +85,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-6a2c8bac0186c4d18dc446080865dfb0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f0e9a4f208c6e4266bb7aea3a2bdf4a0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-eea96d6955ec51fc097a70327dd2338b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-f0e9a4f208c6e4266bb7aea3a2bdf4a0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4270e6473c96bdbf9a9bc1edc1fc6689.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-772abfa483bdc064188d7bfb578025f2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-4270e6473c96bdbf9a9bc1edc1fc6689.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -305,8 +305,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/img/favicon.svg" alt="" class="navbar-logo light-content">
-    <img src="../../assets/img/favicon.svg" alt="" class="navbar-logo dark-content">
+    <img src="../../assets/img/moses.jpg" alt="Moses Okumu" class="navbar-logo light-content">
+    <img src="../../assets/img/moses.jpg" alt="Moses Okumu" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Moses Okumu</span>
@@ -328,6 +328,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../training.html"> 
+<span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../skills.html"> 
@@ -475,15 +479,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     var txt=b.dataset.copy; try { navigator.clipboard.writeText(txt).then(function(){ b.textContent='Copied'; setTimeout(function(){b.textContent='Copy';},1500); }); } catch(e){}
   }); });
 
-  // contact form -> opens email draft
+  // contact form -> sends directly via FormSubmit; falls back to an email draft
   var form = document.querySelector('.contact-form');
   if (form) form.addEventListener('submit', function(ev){
     ev.preventDefault();
-    var d = new FormData(form);
-    var body = encodeURIComponent(d.get('message') + '\n\n— ' + d.get('name') + (d.get('org') ? ', ' + d.get('org') : ''));
-    var subj = encodeURIComponent('[Portfolio] ' + d.get('topic') + ' — ' + d.get('name'));
-    window.location.href = 'mailto:' + form.dataset.to + '?subject=' + subj + '&body=' + body;
-    var s = form.querySelector('.form-status'); if (s) s.textContent = 'Your email app should open with the message ready to send. If it does not, email ' + form.dataset.to + ' directly.';
+    var d = new FormData(form), st = form.querySelector('.form-status'), btn = form.querySelector('button[type=submit]');
+    if (d.get('_honey')) return;
+    var payload = { name: d.get('name'), email: d.get('email'), organisation: d.get('org') || '-', topic: d.get('topic'),
+                    message: d.get('message'), _subject: '[Portfolio] ' + d.get('topic') + ' from ' + d.get('name'),
+                    _template: 'table', _captcha: 'false' };
+    btn.disabled = true; btn.textContent = 'Sending…'; st.className = 'form-status small'; st.textContent = '';
+    fetch(form.dataset.endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(payload) })
+      .then(function(r){ return r.json().then(function(j){ return { ok: r.ok && String(j.success) !== 'false', j: j }; }); })
+      .then(function(res){
+        if (!res.ok) throw new Error('failed');
+        form.reset(); st.classList.add('ok'); st.textContent = 'Thank you! Your message has been sent. I will reply to your email soon.';
+      })
+      .catch(function(){
+        st.classList.add('err');
+        st.innerHTML = 'Sorry, the message could not be sent right now. Please email <b>' + form.dataset.to + '</b> directly.';
+      })
+      .finally(function(){ btn.disabled = false; btn.textContent = 'Send message →'; });
   });
   // gallery filter + lightbox
   var gb = document.querySelectorAll('.gal-filter button'), items = Array.prototype.slice.call(document.querySelectorAll('.g-item'));

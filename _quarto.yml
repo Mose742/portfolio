@@ -5,6 +5,7 @@ project:
     - assets/files/*
     - projects/*/storyboard.pdf
     - projects/*/*.R
+    - assets/video/*
 
 website:
   title: "Moses Okumu"
@@ -17,7 +18,8 @@ website:
   open-graph: true
   navbar:
     title: "Moses Okumu"
-    logo: assets/img/favicon.svg
+    logo: assets/img/moses.jpg
+    logo-alt: "Moses Okumu"
     right:
       - text: Home
         href: index.qmd
@@ -25,6 +27,8 @@ website:
         href: gallery.qmd
       - text: Projects
         href: projects/index.qmd
+      - text: Training
+        href: training.qmd
       - text: Skills
         href: skills.qmd
       - text: Experience
