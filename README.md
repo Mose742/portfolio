@@ -6,7 +6,8 @@ Live site: https://mose742.github.io/portfolio/
 
 ```
 _quarto.yml          site settings, navbar, theme (light + dark)
-index.qmd            home page: hero, KPI tiles, featured projects
+index.qmd            home page: hero, featured data stories, design approach, KPIs
+gallery.qmd          filterable chart gallery with full-screen viewer
 projects/            one folder per case study, each with index.qmd + thumb.svg
   index.qmd          projects gallery (auto-built listing with filters)
 skills.qmd           filterable toolkit
@@ -50,10 +51,14 @@ docs/                the rendered website, which GitHub Pages serves
 4. Add the `Open data` category if the project is built on a public dataset.
 5. Run `quarto render`, then `git add . && git commit -m "Add project" && git push`.
 
-To feature a project on the home page, edit the three cards under "Featured projects" in `index.qmd`.
+To feature a project on the home page, copy one of the `<a class="story">` blocks under "Featured data stories" in `index.qmd`.
+
+## Add a chart to the gallery
+
+Open `gallery.qmd` and copy one `<figure class="g-item">` block. Change `data-src` and `src` (image path), `data-title`, `data-sub`, `data-link` (its project page), and `data-tool` (`r` or `deneb`, or add a new filter button).
 
 ## Before publishing
 
-- Replace `YOUR-LINKEDIN` in `_quarto.yml` and `contact.qmd`.
+- Replace `mosesokumu` in `_quarto.yml` and `contact.qmd`.
 - Keep real programme data out of the site: rebuild dashboards on public or dummy data.
 - The CV in `assets/files/` has the phone number and referee contacts removed on purpose.

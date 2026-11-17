@@ -3,10 +3,11 @@ project:
   output-dir: docs
   resources:
     - assets/files/*
+    - projects/*/storyboard.pdf
 
 website:
   title: "Moses Okumu"
-  description: "Data systems, analytics and digital MERL portfolio — Power BI, R, Python, SQL and data engineering for humanitarian and public-health programmes."
+  description: "Data visualization and analytics portfolio of Moses Okumu: data stories in R, Power BI and Deneb, and the data systems behind them."
   site-url: "https://mose742.github.io/portfolio/"
   repo-url: "https://github.com/mose742/portfolio"
   favicon: assets/img/favicon.svg
@@ -19,6 +20,8 @@ website:
     right:
       - text: Home
         href: index.qmd
+      - text: Gallery
+        href: gallery.qmd
       - text: Projects
         href: projects/index.qmd
       - text: Skills
@@ -31,7 +34,7 @@ website:
         href: https://github.com/mose742
         aria-label: GitHub
       - icon: linkedin
-        href: https://www.linkedin.com/in/mosesokumu/
+        href: https://www.linkedin.com/in/mosesokumu
         aria-label: LinkedIn
   page-footer:
     left: "© 2026 Moses Okumu · Nairobi, Kenya"
@@ -43,6 +46,8 @@ format:
       light: [cosmo, assets/theme-light.scss]
       dark: [cosmo, assets/theme-dark.scss]
     css: assets/styles.css
+    grid:
+      body-width: 980px
     toc: false
     smooth-scroll: true
     link-external-newwindow: true

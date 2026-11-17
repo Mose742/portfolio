@@ -3,7 +3,7 @@ title: "Beneficiary deduplication model in DAX"
 description: "Counting rules that stop the same person being counted twice across projects and services, so reach figures hold up with donors."
 date: 2025-06-01
 date-format: "MMM YYYY"
-order: 2
+order: 5
 image: thumb.svg
 categories: ["Power BI", "DAX", "Data quality", "KPI design"]
 ---

@@ -2,6 +2,9 @@
   {
     "listing": "/projects/index.html",
     "items": [
+      "/projects/education-inequality/index.html",
+      "/projects/kenya-progression/index.html",
+      "/projects/deneb-visuals/index.html",
       "/projects/results-platform/index.html",
       "/projects/dedup-model/index.html",
       "/projects/ona-kobo-migration/index.html",

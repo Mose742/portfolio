@@ -4,7 +4,7 @@
     "href": "skills.html",
     "title": "Skills & toolkit",
     "section": "",
-    "text": "All\n  Visualization & BI\n  Data engineering\n  Programming\n  Data collection\n  Quality & governance\n\n\n\n  \n    Power BI\n    \n      DAX measures & KPIsdeduplication, targets\n      Power Query (M)reshaping, cleaning\n      Data modellingstar schema\n      Power BI Serviceworkspaces, RLS, refresh\n      Deneb / Vega-Litecustom visuals\n    PL-300 certified\n  \n  \n    R\n    \n      tidyversedplyr, tidyr, purrr\n      ggplot2publication charts\n      R Markdown / Quartoreproducible reports\n      Survey analysisODK exports, KPIs\n    \n  \n  \n    Python\n    \n      pandaswrangling\n      Jupyterpipelines, notebooks\n      requests / REST APIsKobo, ONA transfers\n    \n  \n  \n    Databases & architecture\n    \n      SQLquerying, shaping\n      Google BigQuerycloud warehouse\n      Relational / star schemamodel design\n      Data dictionaries & codebooksdocumentation\n    \n  \n  \n    Integration & interoperability\n    \n      API-based data transferKobo, ONA\n      SharePoint as a sourcetrackers, lists\n      Data migrationONA → Kobo\n      Git & GitHubversion control\n    \n  \n  \n    Digital data collection\n    \n      KoboToolboxforms, permissions\n      ODK / ONAdeployment\n      XLSFormskip logic, constraints\n      ODK Briefcaseexport, backup\n    \n  \n  \n    Health information systems\n    \n      DHIS2routine HIV reporting\n      EMR systemsrollout, reconciliation\n    \n  \n  \n    Data quality & governance\n    \n      DQA plans & audits6 country offices\n      Validation & reconciliationsource vs report\n      Deduplicationcounting rules\n      Role-based accessKobo, SharePoint, Power BI\n    \n  \n  \n    Capacity building\n    \n      Training of Trainershealth workers, M&E staff\n      Applied Power BI & R coursesMoses Analytics\n      SOPs & documentationSharePoint MEAL hub\n    \n  \n\n\n\n  Languages\n  English: fluentKiswahili: fluentFrench: beginner\n\n\n\n\n Back to top"
+    "text": "All\n  Visualization & BI\n  Data engineering\n  Programming\n  Data collection\n  Quality & governance\n\n\n\n  \n    Data visualization & storytelling\n    \n      ggplot2 + ggtexteditorial charts\n      ggalluvial · ggridgesflows, distributions\n      Deneb / Vega-Litecustom Power BI visuals\n      Storyboardsmulti-frame data stories\n      Chart designcolour, annotation, uncertainty\n    Core focus\n  \n  \n    Power BI\n    \n      DAX measures & KPIsdeduplication, targets\n      Power Query (M)reshaping, cleaning\n      Data modellingstar schema\n      Power BI Serviceworkspaces, RLS, refresh\n      Report design & UXnavigation, drill-through\n    PL-300 certified\n  \n  \n    R\n    \n      tidyversedplyr, tidyr, purrr\n      ggplot2publication charts\n      R Markdown / Quartoreproducible reports\n      Survey analysisODK exports, KPIs\n    \n  \n  \n    Python\n    \n      pandaswrangling\n      Jupyterpipelines, notebooks\n      requests / REST APIsKobo, ONA transfers\n    \n  \n  \n    Databases & architecture\n    \n      SQLquerying, shaping\n      Google BigQuerycloud warehouse\n      Relational / star schemamodel design\n      Data dictionaries & codebooksdocumentation\n    \n  \n  \n    Integration & interoperability\n    \n      API-based data transferKobo, ONA\n      SharePoint as a sourcetrackers, lists\n      Data migrationONA → Kobo\n      Git & GitHubversion control\n    \n  \n  \n    Digital data collection\n    \n      KoboToolboxforms, permissions\n      ODK / ONAdeployment\n      XLSFormskip logic, constraints\n      ODK Briefcaseexport, backup\n    \n  \n  \n    Health information systems\n    \n      DHIS2routine HIV reporting\n      EMR systemsrollout, reconciliation\n    \n  \n  \n    Data quality & governance\n    \n      DQA plans & audits6 country offices\n      Validation & reconciliationsource vs report\n      Deduplicationcounting rules\n      Role-based accessKobo, SharePoint, Power BI\n    \n  \n  \n    Capacity building\n    \n      Training of Trainershealth workers, M&E staff\n      Applied Power BI & R coursesMoses Analytics\n      SOPs & documentationSharePoint MEAL hub\n    \n  \n\n\n\n  Languages\n  English: fluentKiswahili: fluentFrench: beginner\n\n\n\n\n Back to top"
   },
   {
     "objectID": "projects/ona-kobo-migration/index.html#the-problem",
@@ -28,11 +28,60 @@
     "text": "Impact\n\nSubmissions from 50+ forms transferred with no data loss.\nDocumented and reusable for later migrations.\n\n← All projectsDiscuss a similar project"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/kenya-progression/index.html",
+    "href": "projects/kenya-progression/index.html",
+    "title": "From KCSE to Graduation",
     "section": "",
-    "text": "About the data. Work done for employers and clients is described here as case studies with illustrative visuals. No real programme or beneficiary data is shown. Projects built on public datasets carry the Open data tag.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntegrated multi-country results platform\n\n\n\nPower BI\n\nDAX\n\nPower Query\n\nSharePoint\n\nData engineering\n\n\n\nLinking KoboToolbox, ODK, SharePoint and Excel into one Power BI view of reach against FY26 strategy targets across 6 country offices.\n\n\n\n\n\n\n\n\n\n\n\n\nBeneficiary deduplication model in DAX\n\n\n\nPower BI\n\nDAX\n\nData quality\n\nKPI design\n\n\n\nCounting rules that stop the same person being counted twice across projects and services, so reach figures hold up with donors.\n\n\n\n\n\n\n\n\n\n\n\n\nONA → KoboToolbox migration pipeline\n\n\n\nPython\n\nJupyter\n\nAPI\n\nData engineering\n\nODK\n\n\n\nA repeatable workflow (ODK Briefcase export, then a Python/Jupyter upload through the Kobo API) that moved 50+ forms with zero data loss.\n\n\n\n\n\n\n\n\n\n\n\n\nEMR ↔︎ DHIS2 data-quality programme\n\n\n\nDHIS2\n\nEMR\n\nData quality\n\nPublic health\n\n\n\nRoutine checks, verification visits and feedback that cut EMR-to-DHIS2 reporting discrepancies from over 15% to under 5% across 101 facilities.\n\n\n\n\n\n\n\n\n\n\n\n\nHealth-wallet cost & patient-experience analytics\n\n\n\nPower BI\n\nBigQuery\n\nSQL\n\nPower Query\n\nConsulting\n\n\n\nA Power BI report on Google BigQuery comparing costs and patient experience across digital health-wallet payment models.\n\n\n\n\n\n\n\n\n\n\n\n\nChild-protection survey pipeline in R\n\n\n\nR\n\ntidyverse\n\nR Markdown\n\nSurvey analytics\n\nODK\n\n\n\nReproducible R pipelines for ODK survey data, with KPI variables, reusable plotting functions and R Markdown reports.\n\n\n\n\n\n\n\n\n\n\n\n\nHealth-facility assessment XLSForm\n\n\n\nXLSForm\n\nODK\n\nKoboToolbox\n\nData quality\n\n\n\nDesign, deployment and quality review of a Kobo/ODK facility-assessment tool, with skip logic, constraints, an enumerator manual and a DQA plan.\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "ToolsR · ggplot2 · ggalluvial · ggridges\n Data6,000 students · 5 universities\n Format4 charts + 5-page storyboard\n Headline70% admitted · 76% graduated\nA dark palette drawn from the Kenyan flag, and four chart types, each chosen for one question: a flow diagram for the route, ridgelines for grades, a lollipop histogram for time, and dumbbells for groups.\nThe charts also work as a data-quality audit. They surface records that can’t be true, and a good analyst says so instead of hiding it."
+  },
+  {
+    "objectID": "projects/kenya-progression/index.html#the-route",
+    "href": "projects/kenya-progression/index.html#the-route",
+    "title": "From KCSE to Graduation",
+    "section": "01 · The route",
+    "text": "01 · The route\n\n\n\nFlow from KCSE grade through university admission to graduation.\n\n\n\nTakeaway: 1,363 students are recorded as graduating without being admitted, nearly one in three graduates. That points to a data problem, not a policy one."
+  },
+  {
+    "objectID": "projects/kenya-progression/index.html#the-grades",
+    "href": "projects/kenya-progression/index.html#the-grades",
+    "title": "From KCSE to Graduation",
+    "section": "02 · The grades",
+    "text": "02 · The grades\n\n\n\nSubject-performance distributions by KCSE mean grade.\n\n\n\nTakeaway: an A and a C+ look the same on paper. Every grade spans 50–100%, and the medians sit within about three points of each other."
+  },
+  {
+    "objectID": "projects/kenya-progression/index.html#the-clock",
+    "href": "projects/kenya-progression/index.html#the-clock",
+    "title": "From KCSE to Graduation",
+    "section": "03 · The clock",
+    "text": "03 · The clock\n\n\n\nNumber of students at each recorded time to graduation.\n\n\n\nTakeaway: a third of students sit exactly on the 4-year floor or the 6-year ceiling, a sign the values were capped."
+  },
+  {
+    "objectID": "projects/kenya-progression/index.html#the-groups",
+    "href": "projects/kenya-progression/index.html#the-groups",
+    "title": "From KCSE to Graduation",
+    "section": "04 · The groups",
+    "text": "04 · The groups\n\n\n\nAdmission and graduation rates by income, region, gender, school type, programme and university.\n\n\n\nTakeaway: income, region, gender and school barely move the rates. The widest gaps are “Other” gender (lowest admission) and Harambee schools (highest graduation)."
+  },
+  {
+    "objectID": "projects/kenya-progression/index.html#design-choices",
+    "href": "projects/kenya-progression/index.html#design-choices",
+    "title": "From KCSE to Graduation",
+    "section": "Design choices",
+    "text": "Design choices\n\nHighlight colour carries meaning. Green marks the expected route and red the anomaly, used the same way in every chart.\nAnnotate the outliers directly (1,040 students at exactly 4.0 years) instead of leaving readers to find them.\nDark background with the flag stripe for a recognisably Kenyan look.\n\n\n  Download the storyboard (PDF)\n ← All projects"
+  },
+  {
+    "objectID": "projects/health-financing-bigquery/index.html#the-question",
+    "href": "projects/health-financing-bigquery/index.html#the-question",
+    "title": "Health-wallet cost & patient-experience analytics",
+    "section": "The question",
+    "text": "The question\nDo different digital health-wallet payment models change what patients pay and how they rate their care?"
+  },
+  {
+    "objectID": "projects/health-financing-bigquery/index.html#what-i-did",
+    "href": "projects/health-financing-bigquery/index.html#what-i-did",
+    "title": "Health-wallet cost & patient-experience analytics",
+    "section": "What I did",
+    "text": "What I did\n\nConnected Power BI to Google BigQuery and shaped long-format survey responses into an analysis-ready model in Power Query: question metadata, response values and respondent dimensions.\nBuilt comparison measures for cost and experience scores by payment model, with filters for facility and respondent group.\nDesigned the report around the decision, not the dataset: a headline comparison first, drill-downs second.\n\n-- shape responses before import\nSELECT respondent_id, payment_model, question_code,\n       SAFE_CAST(response_value AS FLOAT64) AS value\nFROM   `project.survey.responses`\nWHERE  question_code IN ('cost_total', 'satisfaction')\n\nClient work. The visuals here are illustrative, and client data stays private.\n\n← All projectsDiscuss a similar project"
   },
   {
     "objectID": "projects/dhis2-data-quality/index.html#the-problem",
@@ -56,34 +105,6 @@
     "text": "Impact\n\nDiscrepancy cut from over 15% to under 5% across 101 facilities.\nReporting completeness held at 90% or more.\n\n← All projectsDiscuss a similar project"
   },
   {
-    "objectID": "projects/child-protection-r/index.html#approach",
-    "href": "projects/child-protection-r/index.html#approach",
-    "title": "Child-protection survey pipeline in R",
-    "section": "Approach",
-    "text": "Approach\n\nImport and clean ODK exports: label choices, handle select_multiple columns, check skip-logic consistency.\nDerive KPI variables once, in one script, from documented definitions.\nReusable plotting functions so every chart shares the same style and annotation.\nR Markdown reports that rebuild from raw data in a single run.\n\nplot_kpi &lt;- function(df, kpi, by) {\n  df |&gt;\n    group_by({{ by }}) |&gt;\n    summarise(pct = mean({{ kpi }}, na.rm = TRUE)) |&gt;\n    ggplot(aes(pct, fct_reorder({{ by }}, pct))) +\n    geom_col(fill = \"#0f766e\") +\n    scale_x_continuous(labels = scales::percent) +\n    labs(x = NULL, y = NULL) +\n    theme_minimal(base_family = \"Inter\")\n}\n← All projectsDiscuss a similar project"
-  },
-  {
-    "objectID": "experience.html",
-    "href": "experience.html",
-    "title": "Experience",
-    "section": "",
-    "text": "Download CV (PDF)\n\n\n\n \n  AUG 2021 – PRESENT\n  Data Analytics & Impact Officer\n  World Relief · Nairobi (remote) · multi-country refugee and host-community programmes\n  Power BIKobo/ODKSharePointPythonDQA\n  Key achievements\n   Integrated results platform: one Power BI view of reach against FY26 targets across 6 country offices and 10+ projects.\n   10+ dashboards (Reach & Strategy Targets, WASH Facility Assessment, HR Staff Tracker): monthly reporting turnaround cut from 14 to 7 days.\n   Deduplication model in DAX applying indicator counting rules across projects and services.\n   ONA → Kobo migration of 50+ forms with zero data loss (ODK Briefcase + Python/Jupyter).\n   DQA framework (piloting, audits, validation, reconciliation) across 6 country offices.\n   Built the FY27 Assessment Planning Workbook and a SharePoint MEAL hub; trained and mentored 10+ staff.\n  \n \n\n \n  2026 – PRESENT\n  Founder & Lead Trainer / Data Consultant\n  Moses Analytics · Nairobi\n  TrainingBigQueryR\n  Key achievements\n   Applied Power BI, R and data-analysis training for 20 professionals from 5 organisations.\n   Power BI on Google BigQuery comparing costs and patient experience across health-wallet payment models.\n   Reproducible R pipelines and R Markdown reports for a child-protection survey (ODK).\n  \n \n\n \n  MAY 2017 – JUL 2021\n  Data Management Assistant\n  NASCOP, National AIDS & STI Control Programme · Nairobi\n  DHIS2EMRData quality\n  Key achievements\n   Cut EMR-to-DHIS2 discrepancies from over 15% to under 5% across 101 facilities in 2 counties.\n   Supported 90%+ reporting completeness through DHIS2 verification against log-frame indicators.\n   Championed EMR rollout and optimisation; delivered ToT and mentorship on national data tools.\n  \n \n\n \n  OCT 2015 – SEP 2017\n  Data & Health Records Officer\n  Kenya Medical Research Institute (KEMRI) · Kisumu\n  Research dataCodebooksSOPs\n  Key achievements\n   Developed and implemented study questionnaires and data-collection tools aligned to protocols.\n   Ran completeness, consistency and validity checks, producing documented, analysis-ready datasets.\n   Produced tables, charts and dashboards for study reports; maintained data dictionaries and SOPs.\n  \n \n\n\nEducation & certifications\n\n MSc Data AnalyticsNexford University, Washington DC (remote) · expected 2027\n Microsoft Certified: Power BI Data Analyst AssociatePL-300 · Microsoft · 2024\n Python Basics & BeyondThe GRAPH Courses · 2025\n BSc Information ManagementKenyatta University, Nairobi · 2015\n\nReferences available on request.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Emailmoseso664@gmail.comCopy\n  LinkedInlinkedin.com/in/mosesokumu\n  GitHubgithub.com/mose742\n  LocationNairobi, Kenya · works remotely across time zones\n  \n   How I can help\n   Results & M&E data systemsPower BI dashboards and data modelsKobo / ODK tool design and migrationData-quality assessmentsPower BI and R training for teams\n  \n \n \n  Send a message\n  \n  \n  Job opportunityConsulting projectTrainingCollaborationOther\n  \n  Open email draft →\n  \n \n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Moses Okumu · Data Systems & Analytics",
-    "section": "",
-    "text": "Data Systems & Digital MERL Specialist · Nairobi, Kenya\n      I turn field data into decisions that programmes can trust.\n      \n      10+ years building databases, dashboards, digital data-collection tools and data-quality systems for multi-country humanitarian, public-health and research programmes across Africa.\n      \n        View projects →\n        Experience\n        Get in touch\n      \n    \n\n    \n    \n      results_platform.pbix\n      \n        \n        Country offices\n        6\n        \n        Dashboards\n        10+\n        \n        Reporting days\n        14→7\n        \n        Reach vs target by quarter (illustrative)\n        \n          \n          \n          \n          \n          \n          target\n          Q1Q2Q3Q4\n        \n      \n    \n  \n\n\n\n\n  15% → &lt;5%EMR-to-DHIS2 reporting discrepancy cut across 101 facilities (NASCOP)\n  50+forms migrated from ONA to KoboToolbox with zero data loss\n  6 countriesmulti-country M&E systems supported at World Relief\n  50+staff trained on Kobo/ODK, data quality and Power BI\n\n\n\n\n  What I doEnd-to-end results systems\n  From the first XLSForm question to the dashboard a country director opens on Monday morning: collection → validation → storage → integration → reporting.\n  \n    Dashboards & automated reportingPower BI models with DAX and Power Query, star schemas and indicator counting rules, built for leadership, donors and field teams.Power BIDAXPower Query (M)Excel\n    Data engineering & integrationLinking Kobo, ODK/ONA, SharePoint, BigQuery and Excel into one reliable model. API transfers, migrations and reproducible pipelines.SQLBigQueryPythonAPIs\n    Data quality & digital MERLXLSForms with skip logic and constraints, DQA frameworks, deduplication and reconciliation, so the numbers hold up under audit.KoboToolboxODKDHIS2DQA\n  \n\n\n\n\n  Selected workFeatured projectsAll projects →\n  \n    Power BISharePointKoboIntegrated multi-country results platformOne view of reach against FY26 strategy targets across 6 country offices and 10+ projects.▲ reporting turnaround 14 → 7 days\n    DHIS2EMRDQAEMR ↔ DHIS2 data-quality programmeRoutine checks, verification visits and feedback loops across 101 HIV-care facilities.▼ discrepancy &gt;15% → &lt;5%\n    PythonJupyterAPIONA → KoboToolbox migration pipelineA repeatable export–transform–upload workflow built with ODK Briefcase and Python.✓ 50+ forms · zero data loss\n  \n\n\n\n\n  \n    \n      Credentials\n      Certified, and still learning\n      \n        Microsoft Certified: Power BI Data Analyst Associate (PL-300)2024\n        MSc Data Analytics, Nexford Universityexpected 2027\n        Python Basics & Beyond, The GRAPH Courses2025\n        BSc Information Management, Kenyatta University2015\n      \n    \n    \n      Where I've worked\n      Humanitarian · public health · research\n      \n        World Relief: Data Analytics & Impact Officer2021 – now\n        Moses Analytics: Founder & Lead Trainer2026 – now\n        NASCOP: Data Management Assistant2017 – 2021\n        KEMRI: Data & Health Records Officer2015 – 2017\n      \n    \n  \n\n\n\n\n  \n    Need a results system, a dashboard or a data-skills training?\n    I work with NGOs, health programmes and research teams. I also run applied Power BI and R training through Moses Analytics.\n    Start a conversationSee my toolkit\n  \n\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "projects/dedup-model/index.html#the-problem",
     "href": "projects/dedup-model/index.html#the-problem",
     "title": "Beneficiary deduplication model in DAX",
@@ -105,18 +126,109 @@
     "text": "Impact\n\nReach figures follow written counting rules that donors can check.\nProjects and services can be combined without inflating totals.\n\n← All projectsDiscuss a similar project"
   },
   {
-    "objectID": "projects/health-financing-bigquery/index.html#the-question",
-    "href": "projects/health-financing-bigquery/index.html#the-question",
-    "title": "Health-wallet cost & patient-experience analytics",
-    "section": "The question",
-    "text": "The question\nDo different digital health-wallet payment models change what patients pay and how they rate their care?"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Moses Okumu · Data Visualization & Analytics",
+    "section": "",
+    "text": "Data Visualization & Analytics · Nairobi, Kenya\n      Charts that make the data speak plainly.\n      \n      I design data stories in R, Power BI and Deneb, and build the data systems behind them. I've spent 10+ years turning field data from humanitarian and public-health programmes into charts people act on.\n      \n        Explore the gallery →\n        Data stories\n        Work with me\n      \n    \n    \n      \n      \n      \n    \n  \n\n\n\n  \n    ggplot2Power BIDenebVega-LiteggtextggalluvialggridgesDAXPower QueryPythonSQLBigQueryR MarkdownQuarto\n    ggplot2Power BIDenebVega-LiteggtextggalluvialggridgesDAXPower QueryPythonSQLBigQueryR MarkdownQuarto\n  \n\n\n\n\n  Featured data storiesEach one starts with a questionAll projects →\n\n  \n    \n    \n      RggalluvialggridgesOpen data\n      From KCSE to Graduation\n      What happens to 6,000 Kenyan students between their KCSE results and graduation?\n      Four chart types follow students from grade to admission to degree. The charts also catch the data out: 1,363 graduates were never recorded as admitted.\n      6,000students4charts1,363anomalies found\n      Read the story →\n    \n  \n\n  \n    \n    \n      Rggplot2ggtextOpen data\n      Same Money, Same Scores?\n      Do funding and poverty explain test scores across public, private and charter schools?\n      A four-frame story that lets a flat result be the headline. Across 1,000 schools, no cut moves scores far from 70%.\n      1,000schools10US statesp = 0.52type gap\n      Read the story →\n    \n  \n\n  \n    \n    \n      Power BIDenebVega-Lite\n      Custom Power BI visuals with Deneb\n      How do you show 130 weeks × 15 counties, or a year of energy use, inside a Power BI report?\n      A drought heatmap and 53 small multiples written in Vega-Lite. They stay fully interactive inside Power BI.\n      2custom visuals53small multiples15counties\n      Read the story →\n    \n  \n\n\n\n\n  ApproachHow I design a chart\n  \n    01The title states the findingA reader who sees only the headline should still leave with the point.\n    02Colour has a jobOne highlight, used the same way across a whole story. Grey for everything else.\n    03Uncertainty stays visibleRanges, intervals and spread go on the chart, not in a footnote.\n    04Honest about the dataFlat results and data problems get shown, not smoothed over.\n  \n\n\n\n\n  GalleryMore chartsOpen the gallery →\n  \n    \n    \n    \n    \n  \n\n\n\n\n  Behind the chartsI also build the data systems\n  Good charts need trustworthy data. At World Relief, NASCOP and KEMRI I've designed the collection tools, data models and quality checks that feed the dashboards.Systems case studies →\n  \n    15% → &lt;5%EMR-to-DHIS2 reporting discrepancy, 101 facilities (NASCOP)\n    14 → 7 daysmonthly reporting turnaround with 10+ Power BI dashboards\n    6 countriesmulti-country M&E systems at World Relief\n    100+staff trained on Kobo/ODK, data quality and Power BI\n  \n  \n     Microsoft Certified: Power BI Data Analyst (PL-300)\n     MSc Data Analytics, Nexford (2027)\n     Python Basics & Beyond, GRAPH Courses\n  \n\n\n\n\n  \n    Have data that needs a clear story?\n    Dashboards, data stories, custom Power BI visuals, and Power BI and R training for teams through Moses Analytics.\n    Start a conversationDownload CV\n  \n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "projects/health-financing-bigquery/index.html#what-i-did",
-    "href": "projects/health-financing-bigquery/index.html#what-i-did",
-    "title": "Health-wallet cost & patient-experience analytics",
-    "section": "What I did",
-    "text": "What I did\n\nConnected Power BI to Google BigQuery and shaped long-format survey responses into an analysis-ready model in Power Query: question metadata, response values and respondent dimensions.\nBuilt comparison measures for cost and experience scores by payment model, with filters for facility and respondent group.\nDesigned the report around the decision, not the dataset: a headline comparison first, drill-downs second.\n\n-- shape responses before import\nSELECT respondent_id, payment_model, question_code,\n       SAFE_CAST(response_value AS FLOAT64) AS value\nFROM   `project.survey.responses`\nWHERE  question_code IN ('cost_total', 'satisfaction')\n\nClient work. The visuals here are illustrative, and client data stays private.\n\n← All projectsDiscuss a similar project"
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "Download CV (PDF)\n\n\n\n \n  AUG 2021 – PRESENT\n  Data Analytics & Impact Officer\n  World Relief · Nairobi (remote) · multi-country refugee and host-community programmes\n  Power BIKobo/ODKSharePointPythonDQA\n  Key achievements\n   Integrated results platform: one Power BI view of reach against FY26 targets across 6 country offices and 10+ projects.\n   10+ dashboards (Reach & Strategy Targets, WASH Facility Assessment, HR Staff Tracker): monthly reporting turnaround cut from 14 to 7 days.\n   Deduplication model in DAX applying indicator counting rules across projects and services.\n   ONA → Kobo migration of 50+ forms with zero data loss (ODK Briefcase + Python/Jupyter).\n   DQA framework (piloting, audits, validation, reconciliation) across 6 country offices.\n   Built the FY27 Assessment Planning Workbook and a SharePoint MEAL hub; trained and mentored 100+ staff.\n  \n \n\n \n  2026 – PRESENT\n  Founder & Lead Trainer / Data Consultant\n  Moses Analytics · Nairobi\n  TrainingBigQueryR\n  Key achievements\n   Applied Power BI, R and data-analysis training for 20 professionals from 5 organisations.\n   Power BI on Google BigQuery comparing costs and patient experience across health-wallet payment models.\n   Reproducible R pipelines and R Markdown reports for a child-protection survey (ODK).\n  \n \n\n \n  MAY 2017 – JUL 2021\n  Data Management Assistant\n  NASCOP, National AIDS & STI Control Programme · Nairobi\n  DHIS2EMRData quality\n  Key achievements\n   Cut EMR-to-DHIS2 discrepancies from over 15% to under 5% across 101 facilities in 2 counties.\n   Supported 90%+ reporting completeness through DHIS2 verification against log-frame indicators.\n   Championed EMR rollout and optimisation; delivered ToT and mentorship on national data tools.\n  \n \n\n \n  OCT 2015 – SEP 2017\n  Data & Health Records Officer\n  Kenya Medical Research Institute (KEMRI) · Kisumu\n  Research dataCodebooksSOPs\n  Key achievements\n   Developed and implemented study questionnaires and data-collection tools aligned to protocols.\n   Ran completeness, consistency and validity checks, producing documented, analysis-ready datasets.\n   Produced tables, charts and dashboards for study reports; maintained data dictionaries and SOPs.\n  \n \n\n\nEducation & certifications\n\n MSc Data AnalyticsNexford University, Washington DC (remote) · expected 2027\n Microsoft Certified: Power BI Data Analyst AssociatePL-300 · Microsoft · 2024\n Python Basics & BeyondThe GRAPH Courses · 2025\n BSc Information ManagementKenyatta University, Nairobi · 2015\n\nReferences available on request.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Emailmoseso664@gmail.comCopy\n  LinkedInlinkedin.com/in/mosesokumu\n  GitHubgithub.com/mose742\n  LocationNairobi, Kenya · works remotely across time zones\n  \n   How I can help\n   Results & M&E data systemsPower BI dashboards and data modelsKobo / ODK tool design and migrationData-quality assessmentsPower BI and R training for teams\n  \n \n \n  Send a message\n  \n  \n  Job opportunityConsulting projectTrainingCollaborationOther\n  \n  Open email draft →\n  \n \n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Visualization gallery",
+    "section": "",
+    "text": "All (10)\n  R · ggplot2 (8)\n  Power BI · Deneb (2)\n\n\n  \n   \n   Whatever the school type, the typical score is about 70%Same Money, Same Scores? · strip plot\n  \n  \n   \n   Nearly one in three graduates was never admittedFrom KCSE to Graduation · alluvial flow\n  \n  \n   \n   Arizona's drought, week by weekDeneb · heatmap\n  \n  \n   \n   Spending five times more barely moves scoresSame Money, Same Scores? · small multiples\n  \n  \n   \n   An A and a C+ look the same on paperFrom KCSE to Graduation · ridgelines\n  \n  \n   \n   Rich or poor, well funded or not, scores barely moveSame Money, Same Scores? · tile grid\n  \n  \n   \n   Energy under changing skiesDeneb · 53 small multiples\n  \n  \n   \n   Time to graduate piles up at the edgesFrom KCSE to Graduation · lollipop histogram\n  \n  \n   \n   California tops the table, but the gaps are small and uncertainSame Money, Same Scores? · intervals\n  \n  \n   \n   Income, region, gender or school: the rates barely moveFrom KCSE to Graduation · dumbbells\n  \n\n\n\n  ×\n  ‹\n  Read the story →\n  ›\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/child-protection-r/index.html#approach",
+    "href": "projects/child-protection-r/index.html#approach",
+    "title": "Child-protection survey pipeline in R",
+    "section": "Approach",
+    "text": "Approach\n\nImport and clean ODK exports: label choices, handle select_multiple columns, check skip-logic consistency.\nDerive KPI variables once, in one script, from documented definitions.\nReusable plotting functions so every chart shares the same style and annotation.\nR Markdown reports that rebuild from raw data in a single run.\n\nplot_kpi &lt;- function(df, kpi, by) {\n  df |&gt;\n    group_by({{ by }}) |&gt;\n    summarise(pct = mean({{ kpi }}, na.rm = TRUE)) |&gt;\n    ggplot(aes(pct, fct_reorder({{ by }}, pct))) +\n    geom_col(fill = \"#0f766e\") +\n    scale_x_continuous(labels = scales::percent) +\n    labs(x = NULL, y = NULL) +\n    theme_minimal(base_family = \"Inter\")\n}\n← All projectsDiscuss a similar project"
+  },
+  {
+    "objectID": "projects/deneb-visuals/index.html",
+    "href": "projects/deneb-visuals/index.html",
+    "title": "Custom Power BI visuals with Deneb",
+    "section": "",
+    "text": "ToolsPower BI · Deneb · Vega-Lite\n VisualsHeatmap · small multiples\n Why DenebCharts Power BI can't do natively\n Format2-page storyboard\nPower BI’s built-in visuals cover the basics. Deneb lets me write Vega-Lite specs inside a report, so I can build custom layouts that still filter, cross-highlight and refresh like any other visual."
+  },
+  {
+    "objectID": "projects/deneb-visuals/index.html#visual-1-arizonas-drought-week-by-week",
+    "href": "projects/deneb-visuals/index.html#visual-1-arizonas-drought-week-by-week",
+    "title": "Custom Power BI visuals with Deneb",
+    "section": "Visual 1 · Arizona’s drought, week by week",
+    "text": "Visual 1 · Arizona’s drought, week by week\n\n\n\nFifteen Arizona counties, one row each, January 2020 to mid-2022. Each cell is one week, coloured by the Drought Severity and Coverage Index.\n\n\n\nWhat stands out: drought arrives together. Almost every county darkens in the same weeks around August–October 2020, stays severe until July 2021, then eases sharply with the summer rains. Mohave holds on longest.\n\nHow it’s built: rect marks on a week × county grid, with a quantized colour scale in five steps so each shade means one severity level. A thin gap between cells keeps individual weeks readable without gridlines."
+  },
+  {
+    "objectID": "projects/deneb-visuals/index.html#visual-2-energy-under-changing-skies",
+    "href": "projects/deneb-visuals/index.html#visual-2-energy-under-changing-skies",
+    "title": "Custom Power BI visuals with Deneb",
+    "section": "Visual 2 · Energy under changing skies",
+    "text": "Visual 2 · Energy under changing skies\n\n\n\n53 weekly tiles of energy use. Dark area is power from the grid, orange is solar used, and the dot is solar generated. Hovering opens a detail panel.\n\n\n\nWhat stands out: two halves of the year. Weeks 1–21 are low and flat, and from week 22 demand jumps into tall peaks. Solar covers only a thin layer, and the sunniest weeks fall in the quietest period.\n\nHow it’s built: faceted area charts (one facet per week) with layered grid and solar areas and a sized circle for weekly generation. The hover panel combines a flow diagram and daily stacked bars.\n\n  Download the storyboard (PDF)\n ← All projects"
+  },
+  {
+    "objectID": "projects/education-inequality/index.html",
+    "href": "projects/education-inequality/index.html",
+    "title": "Same Money, Same Scores?",
+    "section": "",
+    "text": "ToolsR · ggplot2 · ggtext\n Data1,000 schools · 10 US states\n Format4 charts + 5-page storyboard\n FindingNo real gap by type, funding or poverty\nThe usual story about schools is that money and income decide results. This dataset says otherwise. Across every cut I tried, scores sit close to 70%. The design challenge was to show a flat result honestly, letting the absence of a gap be the headline rather than inventing one."
+  },
+  {
+    "objectID": "projects/education-inequality/index.html#frame-1-start-with-the-scores",
+    "href": "projects/education-inequality/index.html#frame-1-start-with-the-scores",
+    "title": "Same Money, Same Scores?",
+    "section": "Frame 1 · Start with the scores",
+    "text": "Frame 1 · Start with the scores\n\n\n\nEvery school is a dot. The bar spans the middle half of schools, and the ring marks the median.\n\n\n\nTakeaway: medians are 71.4% (public), 70.5% (private) and 67.0% (charter), but the spread within each type dwarfs the gap between them (Kruskal–Wallis p = 0.52)."
+  },
+  {
+    "objectID": "projects/education-inequality/index.html#frame-2-follow-the-money",
+    "href": "projects/education-inequality/index.html#frame-2-follow-the-money",
+    "title": "Same Money, Same Scores?",
+    "section": "Frame 2 · Follow the money",
+    "text": "Frame 2 · Follow the money\n\n\n\nFunding per student against test scores, one panel per school type, with a trend line.\n\n\n\nTakeaway: spending five times more per student barely moves scores. Only private schools tilt upward, about 3 points per extra $10,000, and funding explains around 1% of the variation."
+  },
+  {
+    "objectID": "projects/education-inequality/index.html#frame-3-does-poverty-change-the-picture",
+    "href": "projects/education-inequality/index.html#frame-3-does-poverty-change-the-picture",
+    "title": "Same Money, Same Scores?",
+    "section": "Frame 3 · Does poverty change the picture?",
+    "text": "Frame 3 · Does poverty change the picture?\n\n\n\nSchools split into quarters by share of low-income students and by funding. Each tile shows the average score.\n\n\n\nTakeaway: all 16 groups average between 67% and 73%. The poorest, least-funded group (70.6%) scores about the same as the best-off, best-funded group (70.0%). That’s unusual next to most real-world studies."
+  },
+  {
+    "objectID": "projects/education-inequality/index.html#frame-4-where-a-school-is",
+    "href": "projects/education-inequality/index.html#frame-4-where-a-school-is",
+    "title": "Same Money, Same Scores?",
+    "section": "Frame 4 · Where a school is",
+    "text": "Frame 4 · Where a school is\n\n\n\nState averages for funding and test scores, with 95% confidence intervals.\n\n\n\nTakeaway: California (73.9%) and Ohio (65.8%) are the only clear gap. Spending and results don’t line up: Texas is the second-lowest spender but ranks 4th on scores."
+  },
+  {
+    "objectID": "projects/education-inequality/index.html#design-choices",
+    "href": "projects/education-inequality/index.html#design-choices",
+    "title": "Same Money, Same Scores?",
+    "section": "Design choices",
+    "text": "Design choices\n\nTitles state the finding, so a reader who sees only the headline still gets the point.\nColour replaces the legend. School types are coloured inside the subtitle text with ggtext.\nUncertainty is visible. Interquartile bars, trend-line bands and confidence intervals show how sure each comparison is.\nOne warm, quiet palette across all four frames, so the set reads as a single story.\n\n\n  Download the storyboard (PDF)\n ← All projects"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "About the data. Work done for employers and clients is described here as case studies with illustrative visuals. No real programme or beneficiary data is shown. Projects built on public datasets carry the Open data tag.\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSame Money, Same Scores?\n\n\n\nData storytelling\n\nR\n\nggplot2\n\nOpen data\n\n\n\nA four-frame data story on funding, poverty and test scores across 1,000 public, private and charter schools in ten US states.\n\n\n\n\n\n\n\n\n\n\n\n\nFrom KCSE to Graduation\n\n\n\nData storytelling\n\nR\n\nggplot2\n\nOpen data\n\n\n\nFollowing 6,000 Kenyan students from KCSE grade to university admission and graduation, and what the charts reveal about the data itself.\n\n\n\n\n\n\n\n\n\n\n\n\nCustom Power BI visuals with Deneb\n\n\n\nPower BI\n\nDeneb\n\nVega-Lite\n\nOpen data\n\n\n\nTwo Vega-Lite visuals built inside Power BI: a week-by-county drought heatmap and a year of solar and grid energy in 53 small multiples.\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrated multi-country results platform\n\n\n\nPower BI\n\nDAX\n\nPower Query\n\nSharePoint\n\nData engineering\n\n\n\nLinking KoboToolbox, ODK, SharePoint and Excel into one Power BI view of reach against FY26 strategy targets across 6 country offices.\n\n\n\n\n\n\n\n\n\n\n\n\nBeneficiary deduplication model in DAX\n\n\n\nPower BI\n\nDAX\n\nData quality\n\nKPI design\n\n\n\nCounting rules that stop the same person being counted twice across projects and services, so reach figures hold up with donors.\n\n\n\n\n\n\n\n\n\n\n\n\nONA → KoboToolbox migration pipeline\n\n\n\nPython\n\nJupyter\n\nAPI\n\nData engineering\n\nODK\n\n\n\nA repeatable workflow (ODK Briefcase export, then a Python/Jupyter upload through the Kobo API) that moved 50+ forms with zero data loss.\n\n\n\n\n\n\n\n\n\n\n\n\nEMR ↔︎ DHIS2 data-quality programme\n\n\n\nDHIS2\n\nEMR\n\nData quality\n\nPublic health\n\n\n\nRoutine checks, verification visits and feedback that cut EMR-to-DHIS2 reporting discrepancies from over 15% to under 5% across 101 facilities.\n\n\n\n\n\n\n\n\n\n\n\n\nHealth-wallet cost & patient-experience analytics\n\n\n\nPower BI\n\nBigQuery\n\nSQL\n\nPower Query\n\nConsulting\n\n\n\nA Power BI report on Google BigQuery comparing costs and patient experience across digital health-wallet payment models.\n\n\n\n\n\n\n\n\n\n\n\n\nChild-protection survey pipeline in R\n\n\n\nR\n\ntidyverse\n\nR Markdown\n\nSurvey analytics\n\nODK\n\n\n\nReproducible R pipelines for ODK survey data, with KPI variables, reusable plotting functions and R Markdown reports.\n\n\n\n\n\n\n\n\n\n\n\n\nHealth-facility assessment XLSForm\n\n\n\nXLSForm\n\nODK\n\nKoboToolbox\n\nData quality\n\n\n\nDesign, deployment and quality review of a Kobo/ODK facility-assessment tool, with skip logic, constraints, an enumerator manual and a DQA plan.\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "projects/malawi-xlsform/index.html#design-principles",

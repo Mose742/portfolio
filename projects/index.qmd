@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-subtitle: "Case studies in data systems, analytics engineering and visualization. Filter by tool using the categories on the right."
+subtitle: "Data stories first, then the data systems behind them. Filter by tool using the categories on the right."
 page-layout: full
 listing:
   contents: "*/index.qmd"

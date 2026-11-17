@@ -50,9 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-6a2c8bac0186c4d18dc446080865dfb0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-bf3db6eb15fd2015f94ef45ffbb2028b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-67d1c1be75de36141fa6469e36d31ee5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-bf3db6eb15fd2015f94ef45ffbb2028b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f0e9a4f208c6e4266bb7aea3a2bdf4a0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-eea96d6955ec51fc097a70327dd2338b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-f0e9a4f208c6e4266bb7aea3a2bdf4a0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -287,6 +287,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../gallery.html"> 
+<span class="menu-text">Gallery</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
@@ -308,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/mosesokumu/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+    <a class="nav-link" href="https://www.linkedin.com/in/mosesokumu"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -460,6 +464,26 @@ RETURN DIVIDE ( _reach, _target )</code></pre>
     window.location.href = 'mailto:' + form.dataset.to + '?subject=' + subj + '&body=' + body;
     var s = form.querySelector('.form-status'); if (s) s.textContent = 'Your email app should open with the message ready to send. If it does not, email ' + form.dataset.to + ' directly.';
   });
+  // gallery filter + lightbox
+  var gb = document.querySelectorAll('.gal-filter button'), items = Array.prototype.slice.call(document.querySelectorAll('.g-item'));
+  gb.forEach(function(b){ b.addEventListener('click', function(){
+    gb.forEach(function(x){x.classList.remove('active');}); b.classList.add('active');
+    items.forEach(function(it){ it.hidden = !(b.dataset.filter==='all' || it.dataset.tool===b.dataset.filter); });
+  }); });
+  var lb = document.querySelector('.lb');
+  if (lb && items.length) {
+    var cur = 0, img = lb.querySelector('img'), tt = lb.querySelector('figcaption b'), st = lb.querySelector('figcaption span'), ln = lb.querySelector('figcaption a');
+    function vis(){ return items.filter(function(i){ return !i.hidden; }); }
+    function show(el){ var v=vis(); cur=v.indexOf(el); img.src=el.dataset.src; img.alt=el.dataset.title; tt.textContent=el.dataset.title; st.textContent=el.dataset.sub; ln.href=el.dataset.link; lb.hidden=false; document.body.style.overflow='hidden'; }
+    function close(){ lb.hidden=true; document.body.style.overflow=''; }
+    function step(d){ var v=vis(); cur=(cur+d+v.length)%v.length; show(v[cur]); }
+    items.forEach(function(it){ it.addEventListener('click', function(){ show(it); }); it.addEventListener('keydown', function(e){ if(e.key==='Enter') show(it); }); });
+    lb.querySelector('.lb-close').addEventListener('click', close);
+    lb.querySelector('.lb-prev').addEventListener('click', function(){ step(-1); });
+    lb.querySelector('.lb-next').addEventListener('click', function(){ step(1); });
+    lb.addEventListener('click', function(e){ if(e.target===lb) close(); });
+    document.addEventListener('keydown', function(e){ if(lb.hidden) return; if(e.key==='Escape') close(); if(e.key==='ArrowRight') step(1); if(e.key==='ArrowLeft') step(-1); });
+  }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

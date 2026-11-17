@@ -3,7 +3,7 @@ title: "ONA → KoboToolbox migration pipeline"
 description: "A repeatable workflow (ODK Briefcase export, then a Python/Jupyter upload through the Kobo API) that moved 50+ forms with zero data loss."
 date: 2025-09-01
 date-format: "MMM YYYY"
-order: 3
+order: 6
 image: thumb.svg
 categories: ["Python", "Jupyter", "API", "Data engineering", "ODK"]
 ---

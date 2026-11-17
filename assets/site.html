@@ -50,5 +50,25 @@
     window.location.href = 'mailto:' + form.dataset.to + '?subject=' + subj + '&body=' + body;
     var s = form.querySelector('.form-status'); if (s) s.textContent = 'Your email app should open with the message ready to send. If it does not, email ' + form.dataset.to + ' directly.';
   });
+  // gallery filter + lightbox
+  var gb = document.querySelectorAll('.gal-filter button'), items = Array.prototype.slice.call(document.querySelectorAll('.g-item'));
+  gb.forEach(function(b){ b.addEventListener('click', function(){
+    gb.forEach(function(x){x.classList.remove('active');}); b.classList.add('active');
+    items.forEach(function(it){ it.hidden = !(b.dataset.filter==='all' || it.dataset.tool===b.dataset.filter); });
+  }); });
+  var lb = document.querySelector('.lb');
+  if (lb && items.length) {
+    var cur = 0, img = lb.querySelector('img'), tt = lb.querySelector('figcaption b'), st = lb.querySelector('figcaption span'), ln = lb.querySelector('figcaption a');
+    function vis(){ return items.filter(function(i){ return !i.hidden; }); }
+    function show(el){ var v=vis(); cur=v.indexOf(el); img.src=el.dataset.src; img.alt=el.dataset.title; tt.textContent=el.dataset.title; st.textContent=el.dataset.sub; ln.href=el.dataset.link; lb.hidden=false; document.body.style.overflow='hidden'; }
+    function close(){ lb.hidden=true; document.body.style.overflow=''; }
+    function step(d){ var v=vis(); cur=(cur+d+v.length)%v.length; show(v[cur]); }
+    items.forEach(function(it){ it.addEventListener('click', function(){ show(it); }); it.addEventListener('keydown', function(e){ if(e.key==='Enter') show(it); }); });
+    lb.querySelector('.lb-close').addEventListener('click', close);
+    lb.querySelector('.lb-prev').addEventListener('click', function(){ step(-1); });
+    lb.querySelector('.lb-next').addEventListener('click', function(){ step(1); });
+    lb.addEventListener('click', function(e){ if(e.target===lb) close(); });
+    document.addEventListener('keydown', function(e){ if(lb.hidden) return; if(e.key==='Escape') close(); if(e.key==='ArrowRight') step(1); if(e.key==='ArrowLeft') step(-1); });
+  }
 })();
 </script>

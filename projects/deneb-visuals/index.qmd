@@ -1,0 +1,48 @@
+---
+title: "Custom Power BI visuals with Deneb"
+description: "Two Vega-Lite visuals built inside Power BI: a week-by-county drought heatmap and a year of solar and grid energy in 53 small multiples."
+date: 2026-11-13
+date-format: "MMM YYYY"
+order: 3
+image: thumb.jpg
+categories: [Power BI, Deneb, Vega-Lite, Open data]
+lightbox: true
+---
+
+```{=html}
+<div class="facts">
+ <div class="fact"><div class="k">Tools</div><div class="v">Power BI · Deneb · Vega-Lite</div></div>
+ <div class="fact"><div class="k">Visuals</div><div class="v">Heatmap · small multiples</div></div>
+ <div class="fact"><div class="k">Why Deneb</div><div class="v">Charts Power BI can't do natively</div></div>
+ <div class="fact"><div class="k">Format</div><div class="v">2-page storyboard</div></div>
+</div>
+```
+
+Power BI's built-in visuals cover the basics. **Deneb** lets me write Vega-Lite specs inside a report, so I can build custom layouts that still filter, cross-highlight and refresh like any other visual.
+
+## Visual 1 · Arizona's drought, week by week
+
+![Fifteen Arizona counties, one row each, January 2020 to mid-2022. Each cell is one week, coloured by the Drought Severity and Coverage Index.](drought_heatmap.jpg){group="deneb"}
+
+::: {.takeaway}
+**What stands out:** drought arrives together. Almost every county darkens in the same weeks around August–October 2020, stays severe until July 2021, then eases sharply with the summer rains. Mohave holds on longest.
+:::
+
+**How it's built:** `rect` marks on a week × county grid, with a quantized colour scale in five steps so each shade means one severity level. A thin gap between cells keeps individual weeks readable without gridlines.
+
+## Visual 2 · Energy under changing skies
+
+![53 weekly tiles of energy use. Dark area is power from the grid, orange is solar used, and the dot is solar generated. Hovering opens a detail panel.](energy_small_multiples.jpg){group="deneb"}
+
+::: {.takeaway}
+**What stands out:** two halves of the year. Weeks 1–21 are low and flat, and from week 22 demand jumps into tall peaks. Solar covers only a thin layer, and the sunniest weeks fall in the quietest period.
+:::
+
+**How it's built:** faceted area charts (one facet per week) with layered grid and solar areas and a sized circle for weekly generation. The hover panel combines a flow diagram and daily stacked bars.
+
+```{=html}
+<div class="btn-row" style="margin-top:1.6rem">
+ <a class="btn-mo primary" href="storyboard.pdf"><i class="bi bi-file-earmark-pdf"></i> Download the storyboard (PDF)</a>
+ <a class="btn-mo outline" href="../index.html">← All projects</a>
+</div>
+```

@@ -7,7 +7,7 @@ subtitle: "Open to data-systems and analytics roles, consulting, and Power BI / 
 <div class="contact-grid">
  <div>
   <div class="contact-line"><i class="bi bi-envelope fs-4"></i><div><div class="muted small">Email</div><b>moseso664@gmail.com</b></div><button class="copy-btn" data-copy="moseso664@gmail.com">Copy</button></div>
-  <div class="contact-line"><i class="bi bi-linkedin fs-4"></i><div><div class="muted small">LinkedIn</div><a href="https://www.linkedin.com/in/mosesokumu/">linkedin.com/in/mosesokumu</a></div></div>
+  <div class="contact-line"><i class="bi bi-linkedin fs-4"></i><div><div class="muted small">LinkedIn</div><a href="https://www.linkedin.com/in/mosesokumu">linkedin.com/in/mosesokumu</a></div></div>
   <div class="contact-line"><i class="bi bi-github fs-4"></i><div><div class="muted small">GitHub</div><a href="https://github.com/mose742">github.com/mose742</a></div></div>
   <div class="contact-line"><i class="bi bi-geo-alt fs-4"></i><div><div class="muted small">Location</div><b>Nairobi, Kenya</b> · works remotely across time zones</div></div>
   <div class="card-mo" style="margin-top:1.4rem;height:auto">

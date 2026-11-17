@@ -19,7 +19,7 @@ subtitle: "10+ years across humanitarian, public-health and research programmes.
    <li><b>Deduplication model</b> in DAX applying indicator counting rules across projects and services.</li>
    <li><b>ONA → Kobo migration</b> of 50+ forms with zero data loss (ODK Briefcase + Python/Jupyter).</li>
    <li><b>DQA framework</b> (piloting, audits, validation, reconciliation) across 6 country offices.</li>
-   <li>Built the <b>FY27 Assessment Planning Workbook</b> and a SharePoint MEAL hub; trained and mentored <b>10+ staff</b>.</li>
+   <li>Built the <b>FY27 Assessment Planning Workbook</b> and a SharePoint MEAL hub; trained and mentored <b>100+ staff</b>.</li>
   </ul></details>
  </div>
 
