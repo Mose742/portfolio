@@ -4,6 +4,7 @@ project:
   resources:
     - assets/files/*
     - projects/*/storyboard.pdf
+    - projects/*/*.R
 
 website:
   title: "Moses Okumu"
